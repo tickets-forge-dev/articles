@@ -1,0 +1,26 @@
+Final parent verification
+
+uv run --with markdown==3.9 --no-project python scripts/preview-article.py 4
+PASS: article-4.html; five embedded PNGs; clickable email CTA; no remote image dependencies.
+
+python3 scripts/check-part4.py
+PASS: displayed selector preserves required, uncertain, missing and low-confidence results.
+PASS: original fixture fails; all 18 measured patches replay with correct web text and preserved other behavior.
+PASS: retained context/dependencies, full-workflow clocks, cached/output/Jev accounting and summaries match raw evidence.
+
+python3 scripts/check-draft-layout.py
+PASS: all 15 draft layouts/counts; current Part 4 is 875 reader-facing words.
+
+Actual browser surface: isolated Google Chrome after the shared browser screenshot transport stalled.
+375px article: no document overflow; five images decoded; measured section screenshot inspected.
+Clicked the article's Method and raw-run evidence anchor: reached http://127.0.0.1:8765/part-4-benchmark.html.
+375px report: no document overflow; table width and container width both 331px; screenshot inspected after shortening the table header.
+Durable screenshots: cmux-assets/task/part4-benchmark/article-mobile.png and evidence-mobile.png.
+Both verification browser sessions were closed; the isolated browser was terminated.
+cmux executable was unavailable; no cmux pane/tab creation is claimed.
+
+Served ZIP HEAD: HTTP 200; Content-type application/zip.
+Local evidence and upload ZIPs: CRC validation passed and credential-exclusion scans passed.
+Browser download completion was not observed; only the anchor action, served response and local archive integrity were verified.
+
+No public hosting, Medium publication, production benchmark, or independent review is claimed.

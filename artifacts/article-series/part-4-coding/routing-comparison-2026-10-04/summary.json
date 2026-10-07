@@ -1,0 +1,745 @@
+{
+  "arms": {
+    "jev-1.13.0": {
+      "batches": 30,
+      "scored_decisions": 300,
+      "correct": 209,
+      "accuracy": 0.6966666666666667,
+      "automatic_precision": 0.9047619047619048,
+      "coverage": 0.77,
+      "median_batch_s": 0.31806102050002494,
+      "range_batch_s": [
+        0.2892641669999989,
+        0.4429677079999692
+      ],
+      "total_elapsed_s": 9.802011578999924,
+      "estimated_usd_per_100_queries": 0.0019577880000000002,
+      "cold_equivalent_usd_per_100_queries": 0.0019577880000000002,
+      "fully_cached_equivalent_usd_per_100_queries": 0.0019577880000000002,
+      "case_errors": {
+        "test-2769": 3,
+        "test-1275": 3,
+        "test-2449": 3,
+        "test-2146": 2,
+        "test-1269": 3,
+        "test-232": 3,
+        "test-1278": 3,
+        "test-2262": 3,
+        "test-1276": 3,
+        "test-2242": 3,
+        "test-1622": 3,
+        "test-2250": 3,
+        "test-1245": 3,
+        "test-3024": 3,
+        "test-1726": 3,
+        "test-1271": 3,
+        "test-1221": 3,
+        "test-2507": 3,
+        "test-546": 3,
+        "test-2408": 3,
+        "test-291": 3,
+        "test-1259": 3,
+        "test-2927": 3,
+        "test-793": 3,
+        "test-1198": 3,
+        "test-2073": 3,
+        "test-1258": 3,
+        "test-1457": 3,
+        "test-724": 3,
+        "test-2352": 3,
+        "test-2106": 1,
+        "test-37": 1
+      },
+      "usage_per_run": [
+        {
+          "input_tokens": 4660,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4668,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4649,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4683,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4660,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4640,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4657,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4664,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4649,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4684,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4660,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4668,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4649,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4683,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4660,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4640,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4657,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4664,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4649,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4684,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4660,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4668,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4649,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4683,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4660,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4640,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4657,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4664,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4649,
+          "output_tokens": 583
+        },
+        {
+          "input_tokens": 4684,
+          "output_tokens": 583
+        }
+      ]
+    },
+    "gpt-5.6-luna": {
+      "batches": 30,
+      "scored_decisions": 300,
+      "correct": 259,
+      "accuracy": 0.8633333333333333,
+      "automatic_precision": 0.8720538720538721,
+      "coverage": 0.99,
+      "median_batch_s": 4.551407395999995,
+      "range_batch_s": [
+        3.419656708000005,
+        6.962968666999998
+      ],
+      "total_elapsed_s": 142.042085709,
+      "estimated_usd_per_100_queries": 0.006863360000000002,
+      "cold_equivalent_usd_per_100_queries": 0.011532800000000001,
+      "fully_cached_equivalent_usd_per_100_queries": 0.0020763199999999996,
+      "case_errors": {
+        "test-1275": 3,
+        "test-1269": 3,
+        "test-1278": 3,
+        "test-2262": 3,
+        "test-1276": 3,
+        "test-2250": 2,
+        "test-1245": 3,
+        "test-1726": 3,
+        "test-1271": 3,
+        "test-1259": 3,
+        "test-1285": 3,
+        "test-2927": 3,
+        "test-2073": 3,
+        "test-1258": 3
+      },
+      "usage_per_run": [
+        {
+          "totalTokens": 5314,
+          "inputTokens": 5253,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5324,
+          "inputTokens": 5263,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5436,
+          "inputTokens": 5242,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 194,
+          "reasoningOutputTokens": 131
+        },
+        {
+          "totalTokens": 5335,
+          "inputTokens": 5274,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5423,
+          "inputTokens": 5252,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 171,
+          "reasoningOutputTokens": 108
+        },
+        {
+          "totalTokens": 5296,
+          "inputTokens": 5235,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5310,
+          "inputTokens": 5249,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5319,
+          "inputTokens": 5257,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 62,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5302,
+          "inputTokens": 5241,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5331,
+          "inputTokens": 5270,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5314,
+          "inputTokens": 5253,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5427,
+          "inputTokens": 5263,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 164,
+          "reasoningOutputTokens": 101
+        },
+        {
+          "totalTokens": 5377,
+          "inputTokens": 5242,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 135,
+          "reasoningOutputTokens": 72
+        },
+        {
+          "totalTokens": 5335,
+          "inputTokens": 5274,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5313,
+          "inputTokens": 5252,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5296,
+          "inputTokens": 5235,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5310,
+          "inputTokens": 5249,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5319,
+          "inputTokens": 5257,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 62,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5302,
+          "inputTokens": 5241,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5331,
+          "inputTokens": 5270,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5442,
+          "inputTokens": 5253,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 189,
+          "reasoningOutputTokens": 126
+        },
+        {
+          "totalTokens": 5324,
+          "inputTokens": 5263,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5439,
+          "inputTokens": 5242,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 197,
+          "reasoningOutputTokens": 134
+        },
+        {
+          "totalTokens": 5335,
+          "inputTokens": 5274,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5313,
+          "inputTokens": 5252,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5296,
+          "inputTokens": 5235,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5310,
+          "inputTokens": 5249,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5319,
+          "inputTokens": 5257,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 62,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5302,
+          "inputTokens": 5241,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5378,
+          "inputTokens": 5270,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 108,
+          "reasoningOutputTokens": 45
+        }
+      ]
+    },
+    "gpt-5.6-sol": {
+      "batches": 30,
+      "scored_decisions": 300,
+      "correct": 265,
+      "accuracy": 0.8833333333333333,
+      "automatic_precision": 0.8952702702702703,
+      "coverage": 0.9866666666666667,
+      "median_batch_s": 5.874074583500011,
+      "range_batch_s": [
+        3.791076624999988,
+        9.80226670799999
+      ],
+      "total_elapsed_s": 174.82935999600002,
+      "estimated_usd_per_100_queries": 0.1934173333333333,
+      "cold_equivalent_usd_per_100_queries": 0.28941733333333336,
+      "fully_cached_equivalent_usd_per_100_queries": 0.05096773333333333,
+      "case_errors": {
+        "test-168": 1,
+        "test-1275": 3,
+        "test-1269": 3,
+        "test-1278": 3,
+        "test-2262": 3,
+        "test-1276": 3,
+        "test-1245": 3,
+        "test-1726": 3,
+        "test-1271": 3,
+        "test-1259": 3,
+        "test-2927": 3,
+        "test-1258": 3,
+        "test-2073": 1
+      },
+      "usage_per_run": [
+        {
+          "totalTokens": 6825,
+          "inputTokens": 6623,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 202,
+          "reasoningOutputTokens": 138
+        },
+        {
+          "totalTokens": 6695,
+          "inputTokens": 6633,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 62,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6772,
+          "inputTokens": 6612,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 160,
+          "reasoningOutputTokens": 97
+        },
+        {
+          "totalTokens": 6784,
+          "inputTokens": 6644,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 140,
+          "reasoningOutputTokens": 77
+        },
+        {
+          "totalTokens": 6763,
+          "inputTokens": 6622,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 141,
+          "reasoningOutputTokens": 78
+        },
+        {
+          "totalTokens": 6666,
+          "inputTokens": 6605,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6680,
+          "inputTokens": 6619,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6746,
+          "inputTokens": 6627,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 119,
+          "reasoningOutputTokens": 56
+        },
+        {
+          "totalTokens": 6672,
+          "inputTokens": 6611,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6769,
+          "inputTokens": 6640,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 129,
+          "reasoningOutputTokens": 66
+        },
+        {
+          "totalTokens": 6777,
+          "inputTokens": 6623,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 154,
+          "reasoningOutputTokens": 91
+        },
+        {
+          "totalTokens": 6695,
+          "inputTokens": 6633,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 62,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6746,
+          "inputTokens": 6612,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 134,
+          "reasoningOutputTokens": 71
+        },
+        {
+          "totalTokens": 6779,
+          "inputTokens": 6644,
+          "cachedInputTokens": 6528,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 135,
+          "reasoningOutputTokens": 72
+        },
+        {
+          "totalTokens": 6776,
+          "inputTokens": 6622,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 154,
+          "reasoningOutputTokens": 91
+        },
+        {
+          "totalTokens": 6666,
+          "inputTokens": 6605,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6680,
+          "inputTokens": 6619,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6757,
+          "inputTokens": 6627,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 130,
+          "reasoningOutputTokens": 67
+        },
+        {
+          "totalTokens": 6672,
+          "inputTokens": 6611,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6752,
+          "inputTokens": 6640,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 112,
+          "reasoningOutputTokens": 49
+        },
+        {
+          "totalTokens": 6803,
+          "inputTokens": 6623,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 180,
+          "reasoningOutputTokens": 117
+        },
+        {
+          "totalTokens": 6987,
+          "inputTokens": 6633,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 354,
+          "reasoningOutputTokens": 291
+        },
+        {
+          "totalTokens": 6793,
+          "inputTokens": 6612,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 181,
+          "reasoningOutputTokens": 118
+        },
+        {
+          "totalTokens": 6705,
+          "inputTokens": 6644,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6797,
+          "inputTokens": 6622,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 175,
+          "reasoningOutputTokens": 112
+        },
+        {
+          "totalTokens": 6666,
+          "inputTokens": 6605,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6748,
+          "inputTokens": 6619,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 129,
+          "reasoningOutputTokens": 66
+        },
+        {
+          "totalTokens": 6779,
+          "inputTokens": 6627,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 152,
+          "reasoningOutputTokens": 88
+        },
+        {
+          "totalTokens": 6672,
+          "inputTokens": 6611,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 61,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6757,
+          "inputTokens": 6640,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 117,
+          "reasoningOutputTokens": 54
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "gpt-5.6-luna": {
+      "speedup": 14.309855979348585,
+      "observed_price_equivalent_reduction": 0.7147478785900784,
+      "cold_price_equivalent_reduction": 0.8302417452830189,
+      "fully_cached_price_equivalent_reduction": 0.05708753949294876,
+      "quality_not_worse_observed": false,
+      "publishable_for_tested_integration": false
+    },
+    "gpt-5.6-sol": {
+      "speedup": 18.46838878359051,
+      "observed_price_equivalent_reduction": 0.9898779082191875,
+      "cold_price_equivalent_reduction": 0.9932354155245251,
+      "fully_cached_price_equivalent_reduction": 0.9615876973143793,
+      "quality_not_worse_observed": false,
+      "publishable_for_tested_integration": false
+    }
+  },
+  "scope": "Five coarse BANKING77 support queues in the tested integration, not all77 intents, a coding-context speedup, standalone LLM API latency, or invoiced savings."
+}

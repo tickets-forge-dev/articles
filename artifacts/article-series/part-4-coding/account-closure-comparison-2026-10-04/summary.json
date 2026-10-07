@@ -1,0 +1,443 @@
+{
+  "arms": {
+    "jev-1.13.0": {
+      "batches": 18,
+      "scored_decisions": 180,
+      "correct": 180,
+      "accuracy": 1.0,
+      "automatic_precision": 1.0,
+      "coverage": 1.0,
+      "median_batch_s": 0.3013805619999914,
+      "range_batch_s": [
+        0.2791047920000267,
+        0.4436597499999948
+      ],
+      "total_elapsed_s": 5.629941996999982,
+      "estimated_usd_per_100_queries": 0.0011045299999999998,
+      "cold_equivalent_usd_per_100_queries": 0.0011045299999999998,
+      "fully_cached_equivalent_usd_per_100_queries": 0.0011045299999999998,
+      "case_errors": {},
+      "usage_per_run": [
+        {
+          "input_tokens": 2633,
+          "output_tokens": 357
+        },
+        {
+          "input_tokens": 2618,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2627,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2611,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2648,
+          "output_tokens": 353
+        },
+        {
+          "input_tokens": 2642,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2633,
+          "output_tokens": 357
+        },
+        {
+          "input_tokens": 2618,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2627,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2611,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2648,
+          "output_tokens": 353
+        },
+        {
+          "input_tokens": 2642,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2633,
+          "output_tokens": 357
+        },
+        {
+          "input_tokens": 2618,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2627,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2611,
+          "output_tokens": 351
+        },
+        {
+          "input_tokens": 2648,
+          "output_tokens": 353
+        },
+        {
+          "input_tokens": 2642,
+          "output_tokens": 351
+        }
+      ]
+    },
+    "gpt-5.6-luna": {
+      "batches": 18,
+      "scored_decisions": 180,
+      "correct": 180,
+      "accuracy": 1.0,
+      "automatic_precision": 1.0,
+      "coverage": 1.0,
+      "median_batch_s": 4.357356146000001,
+      "range_batch_s": [
+        2.9580311250000193,
+        7.523649750000004
+      ],
+      "total_elapsed_s": 81.03533599899998,
+      "estimated_usd_per_100_queries": 0.008267933333333333,
+      "cold_equivalent_usd_per_100_queries": 0.011058333333333333,
+      "fully_cached_equivalent_usd_per_100_queries": 0.002011233333333333,
+      "case_errors": {},
+      "usage_per_run": [
+        {
+          "totalTokens": 5108,
+          "inputTokens": 5030,
+          "cachedInputTokens": 3840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 78,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5090,
+          "inputTokens": 5013,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5098,
+          "inputTokens": 5023,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5083,
+          "inputTokens": 5008,
+          "cachedInputTokens": 3840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5120,
+          "inputTokens": 5044,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 76,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5114,
+          "inputTokens": 5039,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5108,
+          "inputTokens": 5030,
+          "cachedInputTokens": 4864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 78,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5090,
+          "inputTokens": 5013,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5151,
+          "inputTokens": 5023,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 128,
+          "reasoningOutputTokens": 51
+        },
+        {
+          "totalTokens": 5083,
+          "inputTokens": 5008,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5152,
+          "inputTokens": 5044,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 108,
+          "reasoningOutputTokens": 30
+        },
+        {
+          "totalTokens": 5114,
+          "inputTokens": 5039,
+          "cachedInputTokens": 3840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5135,
+          "inputTokens": 5030,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 105,
+          "reasoningOutputTokens": 25
+        },
+        {
+          "totalTokens": 5090,
+          "inputTokens": 5013,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5098,
+          "inputTokens": 5023,
+          "cachedInputTokens": 3840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5083,
+          "inputTokens": 5008,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5120,
+          "inputTokens": 5044,
+          "cachedInputTokens": 3840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 76,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5143,
+          "inputTokens": 5039,
+          "cachedInputTokens": 3840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 104,
+          "reasoningOutputTokens": 27
+        }
+      ]
+    },
+    "gpt-5.6-sol": {
+      "batches": 18,
+      "scored_decisions": 180,
+      "correct": 180,
+      "accuracy": 1.0,
+      "automatic_precision": 1.0,
+      "coverage": 1.0,
+      "median_batch_s": 5.023704062000007,
+      "range_batch_s": [
+        3.803178416999998,
+        10.028569167
+      ],
+      "total_elapsed_s": 100.52376887399998,
+      "estimated_usd_per_100_queries": 0.16199066666666667,
+      "cold_equivalent_usd_per_100_queries": 0.2710466666666666,
+      "fully_cached_equivalent_usd_per_100_queries": 0.04078466666666667,
+      "case_errors": {},
+      "usage_per_run": [
+        {
+          "totalTokens": 6478,
+          "inputTokens": 6400,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 78,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6460,
+          "inputTokens": 6383,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6468,
+          "inputTokens": 6393,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6453,
+          "inputTokens": 6378,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6490,
+          "inputTokens": 6414,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 76,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6484,
+          "inputTokens": 6409,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6478,
+          "inputTokens": 6400,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 78,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6460,
+          "inputTokens": 6383,
+          "cachedInputTokens": 6144,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6468,
+          "inputTokens": 6393,
+          "cachedInputTokens": 6272,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6453,
+          "inputTokens": 6378,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6490,
+          "inputTokens": 6414,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 76,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6484,
+          "inputTokens": 6409,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6478,
+          "inputTokens": 6400,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 78,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6460,
+          "inputTokens": 6383,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6468,
+          "inputTokens": 6393,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6453,
+          "inputTokens": 6378,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6490,
+          "inputTokens": 6414,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 76,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6484,
+          "inputTokens": 6409,
+          "cachedInputTokens": 6272,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 75,
+          "reasoningOutputTokens": 0
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "gpt-5.6-luna": {
+      "speedup": 14.457986663387153,
+      "observed_price_equivalent_reduction": 0.8664079697465711,
+      "cold_price_equivalent_reduction": 0.9001178598342126,
+      "fully_cached_price_equivalent_reduction": 0.45081956345194496,
+      "quality_not_worse_observed": true,
+      "publishable_for_tested_integration": true
+    },
+    "gpt-5.6-sol": {
+      "speedup": 16.668971710259637,
+      "observed_price_equivalent_reduction": 0.9931815207460513,
+      "cold_price_equivalent_reduction": 0.9959249452738765,
+      "fully_cached_price_equivalent_reduction": 0.9729180084018504,
+      "quality_not_worse_observed": true,
+      "publishable_for_tested_integration": true
+    }
+  },
+  "scope": "Binary recommendation: flag an account-closure request for a human support queue. BANKING77 original terminate_account intent vs all other intents; NOT executing closure, not a 77-intent score, not proof of coding-agent file-screening benefits. Adapter overhead and API-price-equivalent billing limits remain."
+}

@@ -1,0 +1,263 @@
+{
+  "arms": {
+    "jev-1.13.0": {
+      "batches": 9,
+      "scored_decisions": 90,
+      "correct": 90,
+      "accuracy": 1.0,
+      "automatic_precision": 1.0,
+      "coverage": 1.0,
+      "median_batch_s": 0.32118949999998847,
+      "range_batch_s": [
+        0.2805822500000019,
+        0.7144023749999988
+      ],
+      "total_elapsed_s": 3.590054832999985,
+      "estimated_usd_per_100_queries": 0.00111356,
+      "cold_equivalent_usd_per_100_queries": 0.00111356,
+      "fully_cached_equivalent_usd_per_100_queries": 0.00111356,
+      "case_errors": {},
+      "usage_per_run": [
+        {
+          "input_tokens": 2658,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2641,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2655,
+          "output_tokens": 349
+        },
+        {
+          "input_tokens": 2658,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2641,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2655,
+          "output_tokens": 349
+        },
+        {
+          "input_tokens": 2658,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2641,
+          "output_tokens": 355
+        },
+        {
+          "input_tokens": 2655,
+          "output_tokens": 349
+        }
+      ]
+    },
+    "gpt-5.6-luna": {
+      "batches": 9,
+      "scored_decisions": 90,
+      "correct": 90,
+      "accuracy": 1.0,
+      "automatic_precision": 1.0,
+      "coverage": 1.0,
+      "median_batch_s": 5.091052083000001,
+      "range_batch_s": [
+        4.360503915999999,
+        6.082149375
+      ],
+      "total_elapsed_s": 47.16240495999999,
+      "estimated_usd_per_100_queries": 0.010766933333333334,
+      "cold_equivalent_usd_per_100_queries": 0.011125333333333334,
+      "fully_cached_equivalent_usd_per_100_queries": 0.002031733333333333,
+      "case_errors": {},
+      "usage_per_run": [
+        {
+          "totalTokens": 5137,
+          "inputTokens": 5060,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5118,
+          "inputTokens": 5041,
+          "cachedInputTokens": 1792,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5129,
+          "inputTokens": 5055,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 74,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5137,
+          "inputTokens": 5060,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5200,
+          "inputTokens": 5041,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 159,
+          "reasoningOutputTokens": 80
+        },
+        {
+          "totalTokens": 5129,
+          "inputTokens": 5055,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 74,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5137,
+          "inputTokens": 5060,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5118,
+          "inputTokens": 5041,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 5129,
+          "inputTokens": 5055,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 74,
+          "reasoningOutputTokens": 0
+        }
+      ]
+    },
+    "gpt-5.6-sol": {
+      "batches": 9,
+      "scored_decisions": 90,
+      "correct": 90,
+      "accuracy": 1.0,
+      "automatic_precision": 1.0,
+      "coverage": 1.0,
+      "median_batch_s": 5.044094166999997,
+      "range_batch_s": [
+        3.2241006250000055,
+        7.470074541999999
+      ],
+      "total_elapsed_s": 47.307081627,
+      "estimated_usd_per_100_queries": 0.15431999999999998,
+      "cold_equivalent_usd_per_100_queries": 0.27208000000000004,
+      "fully_cached_equivalent_usd_per_100_queries": 0.04088799999999999,
+      "case_errors": {},
+      "usage_per_run": [
+        {
+          "totalTokens": 6507,
+          "inputTokens": 6430,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6488,
+          "inputTokens": 6411,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6499,
+          "inputTokens": 6425,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 74,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6507,
+          "inputTokens": 6430,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6488,
+          "inputTokens": 6411,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6499,
+          "inputTokens": 6425,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 74,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6507,
+          "inputTokens": 6430,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6488,
+          "inputTokens": 6411,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 77,
+          "reasoningOutputTokens": 0
+        },
+        {
+          "totalTokens": 6499,
+          "inputTokens": 6425,
+          "cachedInputTokens": 5120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 74,
+          "reasoningOutputTokens": 0
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "gpt-5.6-luna": {
+      "speedup": 15.85061804012953,
+      "observed_price_equivalent_reduction": 0.8965759361997226,
+      "cold_price_equivalent_reduction": 0.8999077181208054,
+      "fully_cached_price_equivalent_reduction": 0.45191626197663726,
+      "quality_not_worse_observed": true,
+      "publishable_for_tested_integration": true
+    },
+    "gpt-5.6-sol": {
+      "speedup": 15.704418005570476,
+      "observed_price_equivalent_reduction": 0.9927840850181441,
+      "cold_price_equivalent_reduction": 0.9959072331667157,
+      "fully_cached_price_equivalent_reduction": 0.9727656036000782,
+      "quality_not_worse_observed": true,
+      "publishable_for_tested_integration": true
+    }
+  },
+  "scope": "Additional authored boundary validation of the same frozen account-closure recommendation: negation, account vs card/app, quoted requests, past closure, and cancellation of closure. Synthetic cases, not real customer data; not used to tune thresholds or the primary BANKING77 performance table."
+}

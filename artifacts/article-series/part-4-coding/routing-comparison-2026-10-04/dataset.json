@@ -1,0 +1,1044 @@
+{
+  "source": {
+    "train": {
+      "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/train.csv",
+      "sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b",
+      "rows": 10003
+    },
+    "test": {
+      "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/test.csv",
+      "sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+      "rows": 3080
+    }
+  },
+  "license": "CC BY 4.0",
+  "attribution": "PolyAI; Casanueva et al. 2020, Efficient Intent Detection with Dual Sentence Encoders",
+  "route_mapping": {
+    "delivery": [
+      "card_arrival",
+      "card_delivery_estimate",
+      "get_physical_card",
+      "getting_spare_card",
+      "order_physical_card"
+    ],
+    "transfer": [
+      "balance_not_updated_after_bank_transfer",
+      "beneficiary_not_allowed",
+      "cancel_transfer",
+      "declined_transfer",
+      "failed_transfer",
+      "pending_transfer",
+      "receiving_money",
+      "transfer_fee_charged",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "transfer_timing"
+    ],
+    "cash": [
+      "atm_support",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "card_swallowed",
+      "cash_withdrawal_charge",
+      "cash_withdrawal_not_recognised",
+      "declined_cash_withdrawal",
+      "pending_cash_withdrawal",
+      "top_up_by_cash_or_cheque",
+      "wrong_amount_of_cash_received",
+      "wrong_exchange_rate_for_cash_withdrawal"
+    ],
+    "verification": [
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "verify_source_of_funds",
+      "verify_top_up",
+      "why_verify_identity"
+    ]
+  },
+  "selection": "Seeded balanced sampling before any predictions; exact text duplicates excluded across splits. Five coarse queues, not full 77-intent accuracy.",
+  "cases": {
+    "calibration": [
+      {
+        "id": "train-9482",
+        "text": "I have never been charged for making an ATM cash withdrawal before, but I am now being charged a fee to withdraw cash. What happened?",
+        "original_intent": "cash_withdrawal_charge",
+        "expected_route": "cash",
+        "source_row": 9482
+      },
+      {
+        "id": "train-7352",
+        "text": "How can people transfer money to me?",
+        "original_intent": "receiving_money",
+        "expected_route": "transfer",
+        "source_row": 7352
+      },
+      {
+        "id": "train-4910",
+        "text": "I can't enter my passcode.",
+        "original_intent": "passcode_forgotten",
+        "expected_route": "other",
+        "source_row": 4910
+      },
+      {
+        "id": "train-4249",
+        "text": "Can I get my friends to add money to my account?",
+        "original_intent": "topping_up_by_card",
+        "expected_route": "other",
+        "source_row": 4249
+      },
+      {
+        "id": "train-7774",
+        "text": "Do i need to verify my top up?",
+        "original_intent": "verify_top_up",
+        "expected_route": "verification",
+        "source_row": 7774
+      },
+      {
+        "id": "train-8261",
+        "text": "The wrong exchange rate applied to my cash withdrawal.",
+        "original_intent": "wrong_exchange_rate_for_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 8261
+      },
+      {
+        "id": "train-3857",
+        "text": "how do I speed up identity verification?",
+        "original_intent": "why_verify_identity",
+        "expected_route": "verification",
+        "source_row": 3857
+      },
+      {
+        "id": "train-6072",
+        "text": "How long would does it take for a seller to receive an EU transfer if I bought something from them and sent them the money immediately?",
+        "original_intent": "pending_transfer",
+        "expected_route": "transfer",
+        "source_row": 6072
+      },
+      {
+        "id": "train-6155",
+        "text": "Help me close my account.",
+        "original_intent": "terminate_account",
+        "expected_route": "other",
+        "source_row": 6155
+      },
+      {
+        "id": "train-9822",
+        "text": "Where do I go to verify my identity?",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 9822
+      },
+      {
+        "id": "train-4979",
+        "text": "When I tried to access my cash, I wasn't allowed!",
+        "original_intent": "declined_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 4979
+      },
+      {
+        "id": "train-4020",
+        "text": "The card PIN is not visible anywhere?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 4020
+      },
+      {
+        "id": "train-5160",
+        "text": "When will the transaction go through?",
+        "original_intent": "pending_card_payment",
+        "expected_route": "other",
+        "source_row": 5160
+      },
+      {
+        "id": "train-1375",
+        "text": "How can I change currency type?",
+        "original_intent": "exchange_via_app",
+        "expected_route": "other",
+        "source_row": 1375
+      },
+      {
+        "id": "train-4610",
+        "text": "I need help from someone in your department with finding my nearest ATM.",
+        "original_intent": "atm_support",
+        "expected_route": "cash",
+        "source_row": 4610
+      },
+      {
+        "id": "train-9805",
+        "text": "What works for identity verification?",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 9805
+      },
+      {
+        "id": "train-6654",
+        "text": "I have a transfer from the US, How long is the wait?",
+        "original_intent": "transfer_timing",
+        "expected_route": "transfer",
+        "source_row": 6654
+      },
+      {
+        "id": "train-3427",
+        "text": "My friend deposited $100 into my account, but it is not showing up!",
+        "original_intent": "balance_not_updated_after_cheque_or_cash_deposit",
+        "expected_route": "cash",
+        "source_row": 3427
+      },
+      {
+        "id": "train-9352",
+        "text": "Why was there a fee for my cash withdrawal?",
+        "original_intent": "cash_withdrawal_charge",
+        "expected_route": "cash",
+        "source_row": 9352
+      },
+      {
+        "id": "train-1144",
+        "text": "Are there any limit on the auto top-up?",
+        "original_intent": "automatic_top_up",
+        "expected_route": "other",
+        "source_row": 1144
+      },
+      {
+        "id": "train-1115",
+        "text": "are you sending me my card?",
+        "original_intent": "card_delivery_estimate",
+        "expected_route": "delivery",
+        "source_row": 1115
+      },
+      {
+        "id": "train-8642",
+        "text": "I did a money transfer to my account and it is not showing there.",
+        "original_intent": "balance_not_updated_after_bank_transfer",
+        "expected_route": "transfer",
+        "source_row": 8642
+      },
+      {
+        "id": "train-7434",
+        "text": "I tried to make a transfer like five different times. Why won't your system let me? Is it broke?",
+        "original_intent": "failed_transfer",
+        "expected_route": "transfer",
+        "source_row": 7434
+      },
+      {
+        "id": "train-2779",
+        "text": "I completed I transfer the day before yesterday in this country. The transfer still is not complete. I've checked on the account number multiple times to make sure that it is the right one. Can you check to see what's going on with this?",
+        "original_intent": "transfer_not_received_by_recipient",
+        "expected_route": "transfer",
+        "source_row": 2779
+      },
+      {
+        "id": "train-6576",
+        "text": "How do I know where the funds come from?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 6576
+      },
+      {
+        "id": "train-4098",
+        "text": "is my pin the same as my passcode",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 4098
+      },
+      {
+        "id": "train-1024",
+        "text": "I'm worried my card might be lost in the mail? How long does it usually take to arrive?",
+        "original_intent": "card_delivery_estimate",
+        "expected_route": "delivery",
+        "source_row": 1024
+      },
+      {
+        "id": "train-9421",
+        "text": "Why am I charged a fee for getting cash?",
+        "original_intent": "cash_withdrawal_charge",
+        "expected_route": "cash",
+        "source_row": 9421
+      },
+      {
+        "id": "train-8166",
+        "text": "Can I revive a physical card.",
+        "original_intent": "order_physical_card",
+        "expected_route": "delivery",
+        "source_row": 8166
+      },
+      {
+        "id": "train-2424",
+        "text": "How can I request cash back? The ATM just gave me a different amount than what I've been charged though...",
+        "original_intent": "wrong_amount_of_cash_received",
+        "expected_route": "cash",
+        "source_row": 2424
+      },
+      {
+        "id": "train-6554",
+        "text": "Can you tell me where my funds come from?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 6554
+      },
+      {
+        "id": "train-6612",
+        "text": "I have to quickly transfer something to China. How long will it take to arrive there?",
+        "original_intent": "transfer_timing",
+        "expected_route": "transfer",
+        "source_row": 6612
+      },
+      {
+        "id": "train-6586",
+        "text": "What do I do to verify my source of funds?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 6586
+      },
+      {
+        "id": "train-3995",
+        "text": "Is my PIN sent separably?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 3995
+      },
+      {
+        "id": "train-2593",
+        "text": "My account was charged a fee. When did you start charging extra for card payments?",
+        "original_intent": "card_payment_fee_charged",
+        "expected_route": "other",
+        "source_row": 2593
+      },
+      {
+        "id": "train-3999",
+        "text": "I have my card, when whill my PIN be available?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 3999
+      },
+      {
+        "id": "train-6513",
+        "text": "What kind of security protects my money?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 6513
+      },
+      {
+        "id": "train-7198",
+        "text": "There's something wrong on my bill. A transfer fee should never have been added.",
+        "original_intent": "transfer_fee_charged",
+        "expected_route": "transfer",
+        "source_row": 7198
+      },
+      {
+        "id": "train-121",
+        "text": "What's the card you sent me's tracking number?",
+        "original_intent": "card_arrival",
+        "expected_route": "delivery",
+        "source_row": 121
+      },
+      {
+        "id": "train-969",
+        "text": "Which fiat currencies can I use through this app?",
+        "original_intent": "fiat_currency_support",
+        "expected_route": "other",
+        "source_row": 969
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "test-2769",
+        "text": "whats the exchange charge",
+        "original_intent": "exchange_charge",
+        "expected_route": "other",
+        "source_row": 2769
+      },
+      {
+        "id": "test-1905",
+        "text": "I am sick of this damn company and want to close out my account.",
+        "original_intent": "terminate_account",
+        "expected_route": "other",
+        "source_row": 1905
+      },
+      {
+        "id": "test-168",
+        "text": "Why does my statement have these extra charges?",
+        "original_intent": "extra_charge_on_statement",
+        "expected_route": "other",
+        "source_row": 168
+      },
+      {
+        "id": "test-316",
+        "text": "When will my card arrive?",
+        "original_intent": "card_delivery_estimate",
+        "expected_route": "delivery",
+        "source_row": 316
+      },
+      {
+        "id": "test-1275",
+        "text": "What do I need to do for a PIN?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1275
+      },
+      {
+        "id": "test-2449",
+        "text": "I'd like to use cash to top up. How do I find that option?",
+        "original_intent": "top_up_by_cash_or_cheque",
+        "expected_route": "cash",
+        "source_row": 2449
+      },
+      {
+        "id": "test-2146",
+        "text": "May I receive a different card pin",
+        "original_intent": "change_pin",
+        "expected_route": "other",
+        "source_row": 2146
+      },
+      {
+        "id": "test-1269",
+        "text": "I need my PIN",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1269
+      },
+      {
+        "id": "test-232",
+        "text": "I tried to take money from my card, but it didn't work. Later I saw that the transaction is still in progress. What's goign on?",
+        "original_intent": "pending_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 232
+      },
+      {
+        "id": "test-33",
+        "text": "I'm still waiting on my card to be delivered.",
+        "original_intent": "card_arrival",
+        "expected_route": "delivery",
+        "source_row": 33
+      },
+      {
+        "id": "test-1278",
+        "text": "What is my card's PIN?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1278
+      },
+      {
+        "id": "test-2191",
+        "text": "My beneficiary is not allowed, please may I have answer as to why this is?",
+        "original_intent": "beneficiary_not_allowed",
+        "expected_route": "transfer",
+        "source_row": 2191
+      },
+      {
+        "id": "test-200",
+        "text": "My withdrawl is still pending.  Why?",
+        "original_intent": "pending_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 200
+      },
+      {
+        "id": "test-3011",
+        "text": "What do I need to verify my identity",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 3011
+      },
+      {
+        "id": "test-1929",
+        "text": "How can I get my card out of the damn ATM?",
+        "original_intent": "card_swallowed",
+        "expected_route": "cash",
+        "source_row": 1929
+      },
+      {
+        "id": "test-1079",
+        "text": "I sent you a cheque couple days ago, nothing happened to my account yet! This is unacceptable, where is my money??",
+        "original_intent": "balance_not_updated_after_cheque_or_cash_deposit",
+        "expected_route": "cash",
+        "source_row": 1079
+      },
+      {
+        "id": "test-2579",
+        "text": "Can I make a withdraw if I am out of country from with out any fees at an ATM?",
+        "original_intent": "wrong_exchange_rate_for_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 2579
+      },
+      {
+        "id": "test-2485",
+        "text": "Please, how do I order a card?",
+        "original_intent": "order_physical_card",
+        "expected_route": "delivery",
+        "source_row": 2485
+      },
+      {
+        "id": "test-37",
+        "text": "Is there tracking info available?",
+        "original_intent": "card_arrival",
+        "expected_route": "delivery",
+        "source_row": 37
+      },
+      {
+        "id": "test-2262",
+        "text": "Is it possible to deposit money in GBP?",
+        "original_intent": "receiving_money",
+        "expected_route": "transfer",
+        "source_row": 2262
+      },
+      {
+        "id": "test-2040",
+        "text": "What is the number of days I have to wait for my Europe transfer?",
+        "original_intent": "transfer_timing",
+        "expected_route": "transfer",
+        "source_row": 2040
+      },
+      {
+        "id": "test-81",
+        "text": "What exchange rates do you offer?",
+        "original_intent": "exchange_rate",
+        "expected_route": "other",
+        "source_row": 81
+      },
+      {
+        "id": "test-1172",
+        "text": "Why do you require all my identity details?",
+        "original_intent": "why_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1172
+      },
+      {
+        "id": "test-771",
+        "text": "I did not get as much cash as I requested at the ATM.",
+        "original_intent": "wrong_amount_of_cash_received",
+        "expected_route": "cash",
+        "source_row": 771
+      },
+      {
+        "id": "test-2011",
+        "text": "What is the source of my available funds?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 2011
+      },
+      {
+        "id": "test-1276",
+        "text": "Why can't I find my PIN?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1276
+      },
+      {
+        "id": "test-88",
+        "text": "How are exchange rates calculated?",
+        "original_intent": "exchange_rate",
+        "expected_route": "other",
+        "source_row": 88
+      },
+      {
+        "id": "test-2242",
+        "text": "Can I receive my salary in a currency other than what it is deposited in?",
+        "original_intent": "receiving_money",
+        "expected_route": "transfer",
+        "source_row": 2242
+      },
+      {
+        "id": "test-1622",
+        "text": "How long do card transactions take to clear?",
+        "original_intent": "pending_card_payment",
+        "expected_route": "other",
+        "source_row": 1622
+      },
+      {
+        "id": "test-2027",
+        "text": "Where are my funds coming from? I need to know.",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 2027
+      },
+      {
+        "id": "test-313",
+        "text": "I need my card as soon as possible.",
+        "original_intent": "card_delivery_estimate",
+        "expected_route": "delivery",
+        "source_row": 313
+      },
+      {
+        "id": "test-2250",
+        "text": "My salary is received in the form of GBP. Do I need to do anything specific to configure this?",
+        "original_intent": "receiving_money",
+        "expected_route": "transfer",
+        "source_row": 2250
+      },
+      {
+        "id": "test-1245",
+        "text": "How do I set-up my PIN for the new card?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1245
+      },
+      {
+        "id": "test-3024",
+        "text": "do the details of my profile have to match my documents",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 3024
+      },
+      {
+        "id": "test-228",
+        "text": "Why does my account have a pending cash withdrawal?",
+        "original_intent": "pending_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 228
+      },
+      {
+        "id": "test-1518",
+        "text": "There's a direct debit I wish to dispute",
+        "original_intent": "direct_debit_payment_not_recognised",
+        "expected_route": "other",
+        "source_row": 1518
+      },
+      {
+        "id": "test-1726",
+        "text": "How can I fix my card, it got declined twice.",
+        "original_intent": "declined_transfer",
+        "expected_route": "transfer",
+        "source_row": 1726
+      },
+      {
+        "id": "test-2173",
+        "text": "Why isn't my transfer not going through? I keep getting an error message.",
+        "original_intent": "beneficiary_not_allowed",
+        "expected_route": "transfer",
+        "source_row": 2173
+      },
+      {
+        "id": "test-1271",
+        "text": "When do I receive my PIN",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1271
+      },
+      {
+        "id": "test-563",
+        "text": "I don't know what's wrong, my contactless stopped working. Tried it in a few different places today and it didn't work in any of them.",
+        "original_intent": "contactless_not_working",
+        "expected_route": "other",
+        "source_row": 563
+      },
+      {
+        "id": "test-2590",
+        "text": "My ecchange rate was wrong for a cash transaction.",
+        "original_intent": "wrong_exchange_rate_for_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 2590
+      },
+      {
+        "id": "test-1221",
+        "text": "The app doesn't recognize me.",
+        "original_intent": "unable_to_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1221
+      },
+      {
+        "id": "test-1217",
+        "text": "I cannot prove my own identity.",
+        "original_intent": "unable_to_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1217
+      },
+      {
+        "id": "test-2061",
+        "text": "How long is the wait for a US transfer?",
+        "original_intent": "transfer_timing",
+        "expected_route": "transfer",
+        "source_row": 2061
+      },
+      {
+        "id": "test-2106",
+        "text": "I bought something and the money appeared back into my account? Why?",
+        "original_intent": "reverted_card_payment?",
+        "expected_route": "other",
+        "source_row": 2106
+      },
+      {
+        "id": "test-1073",
+        "text": "Has the check I deposited cleared to I can get the cash?",
+        "original_intent": "balance_not_updated_after_cheque_or_cash_deposit",
+        "expected_route": "cash",
+        "source_row": 1073
+      },
+      {
+        "id": "test-2056",
+        "text": "How long do i have to wait for a transfer to reach my account?",
+        "original_intent": "transfer_timing",
+        "expected_route": "transfer",
+        "source_row": 2056
+      },
+      {
+        "id": "test-2507",
+        "text": "What will I be charged for a physical card?",
+        "original_intent": "order_physical_card",
+        "expected_route": "delivery",
+        "source_row": 2507
+      },
+      {
+        "id": "test-546",
+        "text": "I entered the wrong pin too many times and now I am blocked.  Help me unblock!",
+        "original_intent": "pin_blocked",
+        "expected_route": "other",
+        "source_row": 546
+      },
+      {
+        "id": "test-2598",
+        "text": "The cash withdrawal exchange rate is not correct.",
+        "original_intent": "wrong_exchange_rate_for_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 2598
+      },
+      {
+        "id": "test-2408",
+        "text": "How would I go about getting a second card?",
+        "original_intent": "getting_spare_card",
+        "expected_route": "delivery",
+        "source_row": 2408
+      },
+      {
+        "id": "test-291",
+        "text": "How long will it take to arrive?",
+        "original_intent": "card_delivery_estimate",
+        "expected_route": "delivery",
+        "source_row": 291
+      },
+      {
+        "id": "test-1860",
+        "text": "Please explain why the transfers shows up as pending?",
+        "original_intent": "pending_transfer",
+        "expected_route": "transfer",
+        "source_row": 1860
+      },
+      {
+        "id": "test-1259",
+        "text": "what is the process for setting up a pin",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1259
+      },
+      {
+        "id": "test-241",
+        "text": "I want to know how many different currencies my money can be in",
+        "original_intent": "fiat_currency_support",
+        "expected_route": "other",
+        "source_row": 241
+      },
+      {
+        "id": "test-1080",
+        "text": "I have a strange payment in my statement",
+        "original_intent": "card_payment_not_recognised",
+        "expected_route": "other",
+        "source_row": 1080
+      },
+      {
+        "id": "test-1285",
+        "text": "Do you guys accept mastercard or visa?",
+        "original_intent": "visa_or_mastercard",
+        "expected_route": "other",
+        "source_row": 1285
+      },
+      {
+        "id": "test-2291",
+        "text": "how come my transfer didn't work",
+        "original_intent": "failed_transfer",
+        "expected_route": "transfer",
+        "source_row": 2291
+      },
+      {
+        "id": "test-3020",
+        "text": "How does my identity get verified?",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 3020
+      },
+      {
+        "id": "test-1078",
+        "text": "I tired to deposit some cash into my account but it's not there",
+        "original_intent": "balance_not_updated_after_cheque_or_cash_deposit",
+        "expected_route": "cash",
+        "source_row": 1078
+      },
+      {
+        "id": "test-2383",
+        "text": "I can't find the top-up verification code.",
+        "original_intent": "verify_top_up",
+        "expected_route": "verification",
+        "source_row": 2383
+      },
+      {
+        "id": "test-1817",
+        "text": "Do you know why my card payment did not work?",
+        "original_intent": "declined_card_payment",
+        "expected_route": "other",
+        "source_row": 1817
+      },
+      {
+        "id": "test-236",
+        "text": "My account was charged for a withdraw I tried to make that was decline.",
+        "original_intent": "pending_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 236
+      },
+      {
+        "id": "test-2151",
+        "text": "Where can I find instructions to change my PIN?",
+        "original_intent": "change_pin",
+        "expected_route": "other",
+        "source_row": 2151
+      },
+      {
+        "id": "test-2396",
+        "text": "How can I find the top-up verification code?",
+        "original_intent": "verify_top_up",
+        "expected_route": "verification",
+        "source_row": 2396
+      },
+      {
+        "id": "test-2927",
+        "text": "how long and how much does it cost for new card",
+        "original_intent": "card_about_to_expire",
+        "expected_route": "other",
+        "source_row": 2927
+      },
+      {
+        "id": "test-1521",
+        "text": "I can't find my password",
+        "original_intent": "passcode_forgotten",
+        "expected_route": "other",
+        "source_row": 1521
+      },
+      {
+        "id": "test-2715",
+        "text": "Where is my money? I transfered it and it isn't in my account.",
+        "original_intent": "balance_not_updated_after_bank_transfer",
+        "expected_route": "transfer",
+        "source_row": 2715
+      },
+      {
+        "id": "test-3000",
+        "text": "What can I use to verify my identify?",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 3000
+      },
+      {
+        "id": "test-2685",
+        "text": "How long does it take for an international transfer into my account?",
+        "original_intent": "balance_not_updated_after_bank_transfer",
+        "expected_route": "transfer",
+        "source_row": 2685
+      },
+      {
+        "id": "test-793",
+        "text": "I just got $20 when I tried to get $100",
+        "original_intent": "wrong_amount_of_cash_received",
+        "expected_route": "cash",
+        "source_row": 793
+      },
+      {
+        "id": "test-2",
+        "text": "I ordered a card but it has not arrived. Help please!",
+        "original_intent": "card_arrival",
+        "expected_route": "delivery",
+        "source_row": 2
+      },
+      {
+        "id": "test-1198",
+        "text": "Why do you need to know so much about me",
+        "original_intent": "why_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1198
+      },
+      {
+        "id": "test-2015",
+        "text": "I need the source of my funds verified. How do I do this?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 2015
+      },
+      {
+        "id": "test-1747",
+        "text": "I would like to know why my transfer was declined.",
+        "original_intent": "declined_transfer",
+        "expected_route": "transfer",
+        "source_row": 1747
+      },
+      {
+        "id": "test-26",
+        "text": "I think something went wrong with my card delivery as I haven't received it yet.",
+        "original_intent": "card_arrival",
+        "expected_route": "delivery",
+        "source_row": 26
+      },
+      {
+        "id": "test-3013",
+        "text": "I need some help with identity verification.",
+        "original_intent": "verify_my_identity",
+        "expected_route": "verification",
+        "source_row": 3013
+      },
+      {
+        "id": "test-2073",
+        "text": "How long is it going to take for my funds to show in my account?",
+        "original_intent": "transfer_timing",
+        "expected_route": "transfer",
+        "source_row": 2073
+      },
+      {
+        "id": "test-1193",
+        "text": "Do I need to verify my identity?",
+        "original_intent": "why_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1193
+      },
+      {
+        "id": "test-213",
+        "text": "my atm cash out is still pending",
+        "original_intent": "pending_cash_withdrawal",
+        "expected_route": "cash",
+        "source_row": 213
+      },
+      {
+        "id": "test-2039",
+        "text": "What do I need to do to verify the source of my funds?",
+        "original_intent": "verify_source_of_funds",
+        "expected_route": "verification",
+        "source_row": 2039
+      },
+      {
+        "id": "test-2704",
+        "text": "Why isn't the transfer on my account showing up?",
+        "original_intent": "balance_not_updated_after_bank_transfer",
+        "expected_route": "transfer",
+        "source_row": 2704
+      },
+      {
+        "id": "test-1049",
+        "text": "Where is the cash from my cheque I recently deposited?",
+        "original_intent": "balance_not_updated_after_cheque_or_cash_deposit",
+        "expected_route": "cash",
+        "source_row": 1049
+      },
+      {
+        "id": "test-2398",
+        "text": "Is there a verification code for top-ups?",
+        "original_intent": "verify_top_up",
+        "expected_route": "verification",
+        "source_row": 2398
+      },
+      {
+        "id": "test-1230",
+        "text": "How long will it take for my ID to verify?",
+        "original_intent": "unable_to_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1230
+      },
+      {
+        "id": "test-1258",
+        "text": "Why can't I see my PIN?",
+        "original_intent": "get_physical_card",
+        "expected_route": "delivery",
+        "source_row": 1258
+      },
+      {
+        "id": "test-1699",
+        "text": "I bought something but now I would like a refund. How do I do that?",
+        "original_intent": "request_refund",
+        "expected_route": "other",
+        "source_row": 1699
+      },
+      {
+        "id": "test-11",
+        "text": "How long does a card delivery take?",
+        "original_intent": "card_arrival",
+        "expected_route": "delivery",
+        "source_row": 11
+      },
+      {
+        "id": "test-2224",
+        "text": "Why am I seeing a transfer fee?",
+        "original_intent": "transfer_fee_charged",
+        "expected_route": "transfer",
+        "source_row": 2224
+      },
+      {
+        "id": "test-1457",
+        "text": "Which ATM's will accept my card?",
+        "original_intent": "atm_support",
+        "expected_route": "cash",
+        "source_row": 1457
+      },
+      {
+        "id": "test-1173",
+        "text": "Why do you need so much information to verify my identity?",
+        "original_intent": "why_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1173
+      },
+      {
+        "id": "test-315",
+        "text": "What's the U.S. Delivery time?",
+        "original_intent": "card_delivery_estimate",
+        "expected_route": "delivery",
+        "source_row": 315
+      },
+      {
+        "id": "test-724",
+        "text": "How much money can i top up?",
+        "original_intent": "top_up_limits",
+        "expected_route": "other",
+        "source_row": 724
+      },
+      {
+        "id": "test-2729",
+        "text": "My app says that I received cash from an ATM and I didn't.",
+        "original_intent": "cash_withdrawal_not_recognised",
+        "expected_route": "cash",
+        "source_row": 2729
+      },
+      {
+        "id": "test-1202",
+        "text": "Why doesn't the app believe I am who I say I am?",
+        "original_intent": "unable_to_verify_identity",
+        "expected_route": "verification",
+        "source_row": 1202
+      },
+      {
+        "id": "test-2352",
+        "text": "I would like use the bank transfer, but I don't understand the process, can you please explain, topping up?",
+        "original_intent": "transfer_into_account",
+        "expected_route": "transfer",
+        "source_row": 2352
+      },
+      {
+        "id": "test-761",
+        "text": "I didn't get all the cash I requested for at the ATM",
+        "original_intent": "wrong_amount_of_cash_received",
+        "expected_route": "cash",
+        "source_row": 761
+      },
+      {
+        "id": "test-766",
+        "text": "I'm at an ATM and withdrew 30 pounds and was only given 10. What should I do?",
+        "original_intent": "wrong_amount_of_cash_received",
+        "expected_route": "cash",
+        "source_row": 766
+      },
+      {
+        "id": "test-1877",
+        "text": "My transfer hasn't gone through yet.",
+        "original_intent": "pending_transfer",
+        "expected_route": "transfer",
+        "source_row": 1877
+      },
+      {
+        "id": "test-2702",
+        "text": "Why is my balance the same?  I processed a transfer.",
+        "original_intent": "balance_not_updated_after_bank_transfer",
+        "expected_route": "transfer",
+        "source_row": 2702
+      }
+    ]
+  }
+}

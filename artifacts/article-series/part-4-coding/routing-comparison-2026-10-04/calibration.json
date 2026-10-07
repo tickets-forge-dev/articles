@@ -1,0 +1,46 @@
+{
+  "candidates": [
+    {
+      "threshold": 0.0,
+      "precision": 0.825,
+      "coverage": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "precision": 0.825,
+      "coverage": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.825,
+      "coverage": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "precision": 0.8571428571428571,
+      "coverage": 0.875
+    },
+    {
+      "threshold": 0.8,
+      "precision": 0.875,
+      "coverage": 0.8
+    },
+    {
+      "threshold": 0.9,
+      "precision": 0.9285714285714286,
+      "coverage": 0.7
+    },
+    {
+      "threshold": 0.95,
+      "precision": 0.9615384615384616,
+      "coverage": 0.65
+    }
+  ],
+  "chosen": {
+    "threshold": 0.95,
+    "precision": 0.9615384615384616,
+    "coverage": 0.65
+  },
+  "frozen_utc": "2026-10-04T13:48:39.046649+00:00",
+  "evaluation_started": false
+}

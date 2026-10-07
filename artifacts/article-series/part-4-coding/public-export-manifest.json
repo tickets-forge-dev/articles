@@ -1,0 +1,676 @@
+{
+  "scope": "Public export of recorded experiments; no classification calls or results removed",
+  "removed_metadata": "Unrelated account/* transport notifications and temporary absolute cwd fields only",
+  "recorded_queries_labels_predictions_confidences_usage_timing_unchanged": true,
+  "frozen_datasets_protocols_summaries_calibration_unchanged": true,
+  "account_notifications_removed": 260,
+  "cwd_fields_removed": 780,
+  "changed_files": [
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-01-gpt-5.6-luna.json",
+      "original_sha256": "04f70e564a3571068a094b41eb9ca5b84b36f1b1a588a7528849dccb159999af",
+      "public_sha256": "e11486f5f6bb89d51717804f6909f81d09efc4ea491b8df1e5908484a23d7cb1"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-01-gpt-5.6-sol.json",
+      "original_sha256": "d554592751657565c61239d64ad18ed7860b0ae2d15aa5e0a1c73f3786e18288",
+      "public_sha256": "d3cd1f20195e15898a90e15c252c4cd7c683fedb83c34e9d37d442a8ef3abc40"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-02-gpt-5.6-luna.json",
+      "original_sha256": "c6f9c804fd71da9db26b8a6cb55af7d8abe1254944c33bd13ea55d672beefc4e",
+      "public_sha256": "2fc9b0dd037807b951095ed2908493ad3a6c5289aef2535822c29bdf218333e6"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-02-gpt-5.6-sol.json",
+      "original_sha256": "50243b3cc4e5a9fbe7e56dcbb0e5d53fe932c7619710b15abf470bd058128f4d",
+      "public_sha256": "8c4d7436dce97312c72766f96045f5f8971fe26156c49e587b8705b769b17d1f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-03-gpt-5.6-luna.json",
+      "original_sha256": "8436f19f848e022e2d9b088820dd326e8edaaf4bdb9871bc9560eabae4f27de7",
+      "public_sha256": "9b96b7d8ac768e27aaf404a3201f823bfe16d712597c16ff5f5d81486439f36d"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-03-gpt-5.6-sol.json",
+      "original_sha256": "9ef8c2345194589af49ce9f91aa57d27ad64079f2e4e41afa67c0995f2109057",
+      "public_sha256": "512f1d509b04c8440f1b97d42eb1b41bbbc74c66b7e7fcd53918ea6fc095dee9"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-04-gpt-5.6-luna.json",
+      "original_sha256": "a57722cb9e0ade3dcb792574f3a69dbc38cc9ce7a49af039ec8ed9a1965c32df",
+      "public_sha256": "a598bef959581d862cf1ee301aaa31849b080194e7c472391f382e1fdc82c34a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/calibration-01-04-gpt-5.6-sol.json",
+      "original_sha256": "70beb8e401cc5dd0fd4c102c4352a2725b88d0945ec63a775c0e68b941a8b6b8",
+      "public_sha256": "5dcaceb3a6eace177b5e3e16c40b7a47464d76a24e984559cb73b22f265018fe"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-01-gpt-5.6-luna.json",
+      "original_sha256": "152596bd082a842ade7a7c2669c3a7dba6e97a3f6ac9b883ccfa1c2b67756161",
+      "public_sha256": "cd1553cf0150b9e6b07d46218db99052b20416db97e291554da4b1b4adb3c4e2"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-01-gpt-5.6-sol.json",
+      "original_sha256": "5e969ef2d9fb3833a54e362602eb47a1679d85671c98216248e247760cabf85b",
+      "public_sha256": "71eb9c6111300a858a3983ccebd333e597e333086fd744e39244c9ec78f2390f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-02-gpt-5.6-luna.json",
+      "original_sha256": "e7a34976ded46af987fbfd9360a27cfccfc0db7af477d27f2363198b3475226a",
+      "public_sha256": "134c671f809b906db59f4226c9566daf59f3b2c0e89d9da2002cac6420d5c6c3"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-02-gpt-5.6-sol.json",
+      "original_sha256": "b65972ad8de563dce742ec5fa882799df7ccad79a83dd6778952416e13f43cbe",
+      "public_sha256": "ffcc6df422df4d835c35b4dfe772df78a84c3b32fe80865f29542076008fdc01"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-03-gpt-5.6-luna.json",
+      "original_sha256": "5aece4310523ad739ddcbfbd42751cc812938be7cd00afc81e6b299386eaf8fd",
+      "public_sha256": "e2e7245e0920ad70d4364f055648ec76c4aca5c2d3455b56bd2ebf92b80a2f5f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-03-gpt-5.6-sol.json",
+      "original_sha256": "106af2c2e892a55b5bc791661475f049e80812c1a502b9b7eff3dce0e9649eec",
+      "public_sha256": "f5eb2dda1469f4fc41a8a965dfd9c48a6b1f39c40d77254c10245fc1a1e97404"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-04-gpt-5.6-luna.json",
+      "original_sha256": "2535b3144b8998c9e41249cbebcd61f2d88c6e3892db82d89a0c88a30f2d6c0b",
+      "public_sha256": "6ec150b15b30d5bd34074a457d4801b61e9fa0cfcdd6cb69dc15c4c75b81bd46"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-04-gpt-5.6-sol.json",
+      "original_sha256": "6007299f93c0ae43067fe60e380f8215fb984c2c5d4c55341ca86b14eb7ac791",
+      "public_sha256": "021c9d21d0dfb11dc80111acc4073978c5f9f19080777e5031bbbccafcd528a4"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-05-gpt-5.6-luna.json",
+      "original_sha256": "dd549fa7ed190439dc98d60d885b4a0b3213803178c0e75197cc4cacf2af9c68",
+      "public_sha256": "05f06c35719f3bbb5efff0c43a402f7d49139c50fb782b4e852882aefcf2dff1"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-05-gpt-5.6-sol.json",
+      "original_sha256": "8c8e051186e7d7f085aab6c13774ff500bdeb1891e13f582ea70ff14fcc0d865",
+      "public_sha256": "44cbca6b6674cea7a42f329115963024c792fe5917db1fc94aafa655736a3d35"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-06-gpt-5.6-luna.json",
+      "original_sha256": "d3d1ac5bf46dcee0689d11e00b255c6452d2f03848abe05e9d51e40c49640f36",
+      "public_sha256": "593075682a1551b62b90a7eeb54d5fe420900c27e471dbe887264f81eea866af"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-01-06-gpt-5.6-sol.json",
+      "original_sha256": "be82ec49bc6b435220a969cfaa0951a79f4f807b39ff34ed1ea356169c4aafad",
+      "public_sha256": "adedbe943173efb4b03db633ab859957e70b2d3481b7c840ea537a2fd293dcae"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-01-gpt-5.6-luna.json",
+      "original_sha256": "927be0f802ccc14af4f26f00247716baf46ea8cdcd253fe5de367ccf9f3ec92d",
+      "public_sha256": "06049dad54597a62cd41c40e299d925505bd95556b3787e0ed3182cd73fd1357"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-01-gpt-5.6-sol.json",
+      "original_sha256": "98bf91db4f2098c46cbdfd6f34e4f7f9386e7b08de6124993a584eee03121359",
+      "public_sha256": "1528a9d28c105db569124d67e739a5c1e7486edf1f72ba70fe60bafb7d30ac0c"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-02-gpt-5.6-luna.json",
+      "original_sha256": "9dc0996ab014be0f9f7ce99e89da428e997079ad99e9c0282da76123d296df56",
+      "public_sha256": "26b351b2703690ace46a6daaa8bc55f1fcbb7fbe93cf7bb132256f481f83dcd0"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-02-gpt-5.6-sol.json",
+      "original_sha256": "7ab0121ef9eec2e128d1970a5a18ac455bdad975883c2cf4ae667bd50021d8a2",
+      "public_sha256": "67acad7572ad75a627336c2bb3994e804a979816cec9cd9fb85b9067af6e1ab5"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-03-gpt-5.6-luna.json",
+      "original_sha256": "1bf3e31bd703661f7526a788b133f0de7f95dabe11c1f47ce815badc3a162831",
+      "public_sha256": "9ca51b862cb9f5ad51cc37f46a961d3bf97e789d59837f7f551980828b5704ae"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-03-gpt-5.6-sol.json",
+      "original_sha256": "d361ba0b0e6511a7e659ba41b3b382d96a6eace7aa85141ac28653ce41acad5e",
+      "public_sha256": "e54ca1e6d51d9ddfbb61e296698b032d49a043cb02c2baa12428172dd659a749"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-04-gpt-5.6-luna.json",
+      "original_sha256": "b4f726a703fb6de050dca72b24b6f08b7130200445196f66ff643fdd6366fe11",
+      "public_sha256": "a8b679fecab89f5a0f45c98c024b0aa413265438a8558240dcfe791aa6bed140"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-04-gpt-5.6-sol.json",
+      "original_sha256": "af1abab24e96ffcfd9f9e75094aedeb9c921e6322348abec8dac5a2c6be7ce1b",
+      "public_sha256": "ad4ccb62b98e78478a2639fb37f9533e28be71cf1209c9e2d8c7159fa1567da1"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-05-gpt-5.6-luna.json",
+      "original_sha256": "aae156ece7809d661dd1efd79bc321294d873c66cca0fcad24750373cf70cf65",
+      "public_sha256": "2fd2961d4d6e6715c321e8f7f29cde485c45ff2b015ba71af8bbc09624ac2343"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-05-gpt-5.6-sol.json",
+      "original_sha256": "b7ebeb9d9034355e668efd582018b20f0e73e34d8fb34e4a175b0063248a7745",
+      "public_sha256": "a7025253911160382cebb09b38671b5fe0de8ebe944409dcf260c28a60e6889d"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-06-gpt-5.6-luna.json",
+      "original_sha256": "a79cec86442e1450701b0f7d4e2bf01adce33d3afa6a12c897600023ce4ff659",
+      "public_sha256": "16644ba007715386574285446e34de454f025a9159eb84864029f3af07f3a897"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-02-06-gpt-5.6-sol.json",
+      "original_sha256": "47e64c7105eb6d9ec40cfb28b268a5a3ec4568dab96e55ed99c14851eae65fc5",
+      "public_sha256": "a3b8bd8a0159e2719293e6da1850deca8b95ffda43a8db13d565611b38173f2c"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-01-gpt-5.6-luna.json",
+      "original_sha256": "8c68999cda3e167655e43f3ff4a56ed5230b2ae790b40d7e7dbde964e7a4d031",
+      "public_sha256": "59e4976dd4758a9deffc1575370f4ee75da0145eceb2e250c14145cddb4aa294"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-01-gpt-5.6-sol.json",
+      "original_sha256": "4d0cfb254a3bda99657ba87a982035cbd3720f310041044cde7499d5038e5110",
+      "public_sha256": "4a6565297ca44fa1028abe39d41eb9fb52eb28448700f231efbf055fc9c04877"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-02-gpt-5.6-luna.json",
+      "original_sha256": "919119b92c8461fa51c0263485765421dc303b6a06974274f2d1f763df5a8568",
+      "public_sha256": "7baa31189b38fbe98e5a0e810571ed900d4eb8aaebd82e0e70ac573b513cb324"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-02-gpt-5.6-sol.json",
+      "original_sha256": "85ceb95efdb60066a5d0c961356989cfc4a2e419b57f15764d96b68abafb6c4d",
+      "public_sha256": "6f42fd1e37640f3a7714df6372a89849a53348dde6bdd8cc3e0ad91b7de5a79e"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-03-gpt-5.6-luna.json",
+      "original_sha256": "c1190980280f4a90ca352f4e96e7cd26ffad14c706a6aafbdceca67d69fb4543",
+      "public_sha256": "f51778180c92138818695acc4cc14934fa3beeb1171843c16a7b4596a8ab0305"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-03-gpt-5.6-sol.json",
+      "original_sha256": "fe3615a30881bd4701dde000bbad133a2ae2a75850a0ef1b55e6d198bcd1f710",
+      "public_sha256": "ad84c52be5db4844b2e52d91bdd7596020f00d1b98f1282dc632621a27253e15"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-04-gpt-5.6-luna.json",
+      "original_sha256": "115eb27fc1a7857e06461bfa9ea8b44ec7d0ae02f15667fe769cf1e04269659b",
+      "public_sha256": "f143b64c514e8223c4907357cce3011bfa45eab219bd3836d2e3307a8b35ab0f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-04-gpt-5.6-sol.json",
+      "original_sha256": "5c45360eff2b3c5b246237bc1ee46c545041ac0c2886625c7576437a3d66f31f",
+      "public_sha256": "22e5f73cb9691563a065a7805aa1a374999c20f34135d1614f0054db58d4a9d3"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-05-gpt-5.6-luna.json",
+      "original_sha256": "7e4dffc328af96b6ecec50d7faa6f3c3550cd6a67006ad29be0f3ff01ec5177e",
+      "public_sha256": "319a439e6afc81d84eb612d7f45e768090b420f78ecdcf4daaf529d6de277399"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-05-gpt-5.6-sol.json",
+      "original_sha256": "59d939499becb9251a46baea03d93665f24553abd73c6b3df9b56106432a1e7f",
+      "public_sha256": "880d01331e228c4c929210b59ab6eb4116d28a28907834f5132ea8b0026c4e4a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-06-gpt-5.6-luna.json",
+      "original_sha256": "1865d21b772e5c123b7ebc8bb240837f3642ecc20dbb6ad1aa10841450c260b5",
+      "public_sha256": "880ce95b8b31eaa1b301de1eb20634fde3e76fe7539b8276b06d9c5665c3ddbe"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evaluation-03-06-gpt-5.6-sol.json",
+      "original_sha256": "822c53349188a96488844065c5d545f1aaf7d524925df00b94d022bc636bc1d2",
+      "public_sha256": "36923ec5b058d54082e8bbfa6e5ca4a76551caad28b093ab5a9cf6308a68c68e"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/results.json",
+      "original_sha256": "d953959013f1bbd17e76f848a5a1c1bd18c2ab8163fa29366e0805760b073721",
+      "public_sha256": "87d883c9d6471321a676cb27c50202276a5c2683d59199ef7ee0e9c57cdadab1"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-01-01-gpt-5.6-luna.json",
+      "original_sha256": "9117a1cb3a55307ffb773850cf323e3a76c34061d9c750220a609c41e6db83d2",
+      "public_sha256": "5f112ab021aef9b2f80391e19994a6d6c274fdb8e3db50007e52bde62ce10505"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-01-01-gpt-5.6-sol.json",
+      "original_sha256": "ae542c595ab96d65393792b69e6d3454e92ab3366a55d036b952960bcf2193b7",
+      "public_sha256": "cc369ef5e73a6a59d1c8886912db1582988995506007ebf0c8ce95abad54c8ac"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-01-02-gpt-5.6-luna.json",
+      "original_sha256": "1eedf9ed94e20040ea0acc5ae8a028f2d31b3b6ff64e02d119c4b8ad812ca0dc",
+      "public_sha256": "95a35a8b5a936c85003e3a289e41daba53b50da2486f5ced47863f54b89e866c"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-01-02-gpt-5.6-sol.json",
+      "original_sha256": "b43733e9e547d25595925bd0bdfc794b9934099666f23ebec85fedd47d262628",
+      "public_sha256": "6600da6b506488522019f80148cc0433f56f47fd9502946fdea9a934830e84df"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-01-03-gpt-5.6-luna.json",
+      "original_sha256": "01e3cee171eaac5287c7e1cf4a5f1875f4f3d29a86c2764683ce4f279582f6ab",
+      "public_sha256": "00402a5564ca3b8fc7cbbf383d7a9e0c0bd75169413b3f78a907421887a1185e"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-01-03-gpt-5.6-sol.json",
+      "original_sha256": "b12d04c1e9d087cefc7413f32446ea8962138e96ad4f131a80dde8b858e22c2b",
+      "public_sha256": "1ba8a0d263589338ac55dd8eef8e438cd1cefe7400853fc424f51be610a004fb"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-02-01-gpt-5.6-luna.json",
+      "original_sha256": "cc4e8cadd9c7fb22894c7159a29be6e404b049b066608031b1cb79dcb633bd76",
+      "public_sha256": "2a57edad50815d00207d839caed21642b140fbf781cf4f7ddc81e5e703a54deb"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-02-01-gpt-5.6-sol.json",
+      "original_sha256": "00d8876071059008e6be240e3a8d046fcc0c61386494555eb98db507fd0edde1",
+      "public_sha256": "bb27938c3288f8897706b4ebf2da6aa15301676b51c5d5946d223b85c74e267a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-02-02-gpt-5.6-luna.json",
+      "original_sha256": "20fb92be30502c053efabf6817e4f3167c793f103bda9c371dbbd77c97dcb8d2",
+      "public_sha256": "bb0082f0c80a95bcc181a16c18a951993756d00de2c9712e66ed005214d9b24a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-02-02-gpt-5.6-sol.json",
+      "original_sha256": "2affd14f59050c7845c9868d0a0aa010cacb7d355da582c46f8974689b7e17d2",
+      "public_sha256": "eb88cbb75a15ad0352fa2112bd18313c9d7be3c3533b397a0854c7759bc816f4"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-02-03-gpt-5.6-luna.json",
+      "original_sha256": "809768550b8ea323badfe3a39682b6d0e21284e1efeadb6b2651c698f863d63c",
+      "public_sha256": "e511de6bd213b4f89d7dc0ea2f5848f96b51c67d0fb2ddcc79eecbf51cc63f77"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-02-03-gpt-5.6-sol.json",
+      "original_sha256": "693e1dcbe97db62a8c1238056b44477ee6e8b633f71d115a0b04ae97fb8530e4",
+      "public_sha256": "560183795d338c4c435054b4d7daae5847c1558a422461ac95b356f979c44eef"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-03-01-gpt-5.6-luna.json",
+      "original_sha256": "0a49252f7f3354253caf099bc7b700edbb42b4cf8ae169d24437216a2c08ae08",
+      "public_sha256": "5ebff06bfd46284301d9ea7cd1c775bf88df7b9153236e8650ee5ce2ff87a57b"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-03-01-gpt-5.6-sol.json",
+      "original_sha256": "c3366348543693b04a949f1668a7295ce3833b38fad3e0e79f0195a2ebbc1e72",
+      "public_sha256": "625ba55be8b2d4ad359b08eca4bd684a90a991d1ad40127b9afd7f73eabe29e6"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-03-02-gpt-5.6-luna.json",
+      "original_sha256": "818c1a13b5fabeba8563c0d57a60d42fb5985f0bc492a9582094f4a5a2941003",
+      "public_sha256": "6daa303f0acfa3bd5eaee05dd80ad5b19e2cc43c69d1dd6fe2e2c659613a6b3b"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-03-02-gpt-5.6-sol.json",
+      "original_sha256": "096062ef91dc05cf12bc98e86f7987e21992c11bf8784b03504fcd7916e47e0d",
+      "public_sha256": "6e673c726d4507480f6e5ff4f6a082061fa1e49ac04d95f4c441cc2396489080"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-03-03-gpt-5.6-luna.json",
+      "original_sha256": "98d85b2fe042558b9386739e99ed4eaab0b44aa4ecc31a2a31a63c9651f3d2af",
+      "public_sha256": "e115d0f3d48ff0a129d6c313698e0d7e84b289aeaf3ea38c97b266736824f044"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/evaluation-03-03-gpt-5.6-sol.json",
+      "original_sha256": "f12d21e27fe5a73f136b21c4c5fa6b059c3e9550095bf5a0b5e47d138f561208",
+      "public_sha256": "05349255a1599308537f4ed5dc3a351cde7874451e735404667e2f926e9cd277"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/account-closure-boundaries-2026-10-04/results.json",
+      "original_sha256": "e849ca5a6e192988c5ac819742b37a57cc9470cff9358dc46af723a8cf2657b5",
+      "public_sha256": "9807022d29c411d836d695beeaaac039ce063f4be89b43731085270d3c246a63"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-01-gpt-5.6-luna.json",
+      "original_sha256": "6515686164fac76dd21a6cfa47df6f248f76362aa3347b55f71f86f3311207a5",
+      "public_sha256": "88f6ca4157b56f7010deb62b9c3cc1ff21a2a4a74c967acae0f32334143b4bf8"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-01-gpt-5.6-sol.json",
+      "original_sha256": "64244bf1206591ae59dd842ba6343a85ee8017bb9bb475029e9b4e0b735e86c1",
+      "public_sha256": "e65944780f2bc92c1e1d03696d2fdecf73b586fc60f1aa39f4a9497090323b60"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-02-gpt-5.6-luna.json",
+      "original_sha256": "60a972221686974383a3e527b03e14790898ad0151b6e040284f656837f3f662",
+      "public_sha256": "ee79f66ea1d152e89c3a1d6c125fb4c2ba35077d17b3e64a8ca603e6c52d2c86"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-02-gpt-5.6-sol.json",
+      "original_sha256": "edada1f3ecc857ea80a0b8a624fef844a6697ad3c3f4256550311c6049bf06fb",
+      "public_sha256": "a3a24b42592671e7295049dbe036243f14e6d7c8c7949d714fa3f190fe19da20"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-03-gpt-5.6-luna.json",
+      "original_sha256": "f18d1e828dc33626a671a23d44e9a297a59ea6957aec8ae4c34870a28d866553",
+      "public_sha256": "87a530ee2f699e920568a92bdd20c4d74ef1fecc4bf46d102113e323de5f1ad2"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-03-gpt-5.6-sol.json",
+      "original_sha256": "d76a792437e6c7a19b692dff7109df130de085a06ab2e8da4b0fb2385f97a02f",
+      "public_sha256": "880a6a0c22b099c123ebe7fe2f68cf83212c2e337a2ba3a2968df65b59bf3c17"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-04-gpt-5.6-luna.json",
+      "original_sha256": "e9df908559195a44313001a62745a3ba4ab91f5c37b06048da0e9b90867ab994",
+      "public_sha256": "0110edaccb87467a1d11e99a7cf4b35594be6c53d8e89e8ea6394d576f74ec36"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/calibration-01-04-gpt-5.6-sol.json",
+      "original_sha256": "3bea52013a22d26df12004d99e826bc699da351356204bc16ae5ac4a9d81d876",
+      "public_sha256": "4885fda07285ff90f0b0d743f4cfe4f25cd9ae77b50d37d09d4416e5b3af9135"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-01-gpt-5.6-luna.json",
+      "original_sha256": "14adcd56d03d64bbbe09d4384257b63aafa393c1f7911f1ae985637aa22771a2",
+      "public_sha256": "7a4d8efdf00e8579d96f7b90c146d1526563598243e45fba70aaa271da6b66a8"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-01-gpt-5.6-sol.json",
+      "original_sha256": "685a8d2a5afc030a9a3dff1d09bc426ad17e0f942d581f70a7af33b3fc8c0879",
+      "public_sha256": "b68ad05bb1b92196db1d677ab864a7083987c0d9060ce401ee191dd02db3a6fc"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-02-gpt-5.6-luna.json",
+      "original_sha256": "c3814c9c6517bf1e31a918bd3291c5339372658b38415d04e812db59f2480a85",
+      "public_sha256": "0159373a87639e175640cb8381391fd7048158a9adf951b15ae13accc095875e"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-02-gpt-5.6-sol.json",
+      "original_sha256": "8938393cc32e28ec227f5b2643d50b7dd56df43578519b51aa6f7e5f9b4aba29",
+      "public_sha256": "ba6c6e6a2ca61ef944a3a9d80a306452ade4bd4bab625f4923f0863ec2de7692"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-03-gpt-5.6-luna.json",
+      "original_sha256": "01e2179612dba354fed4aad2ae6b94542cc7dbcf83f10e6add07308ab8eeab23",
+      "public_sha256": "d1cd45043253f2cb94deb1fe1429f1d61a10d73050b496cd9716fd9a2e16190a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-03-gpt-5.6-sol.json",
+      "original_sha256": "30fd15ed5d86e933327cac0442e80bc73bb210794478ab32d5c70a25dabe214b",
+      "public_sha256": "93983f5873d4f98a4584f4f74c827cadee8d0ba384bb8f99db3385e4ab4abca1"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-04-gpt-5.6-luna.json",
+      "original_sha256": "7da7b1afe371fbdced8d20b9517c7365176706f995a96a98900bda2f447bb053",
+      "public_sha256": "a9ddc9931c468768069c0c2cb6b6b03729e33ba257264d2a7b386be158f58c37"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-04-gpt-5.6-sol.json",
+      "original_sha256": "74475e3144bc94fb84e6b91d4b7728012f470f11f5636e2f7a5ce145d90a5cad",
+      "public_sha256": "813ab3ba171ffb2b7317ce73ec038b4852040bd58ef67eb327b675d52b7e38dd"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-05-gpt-5.6-luna.json",
+      "original_sha256": "526020005520cfceedf45688e8f87a73003c955b4368710a3cadda46c4b028cc",
+      "public_sha256": "fce7cf91a6a1812f3474069f0ef12588a188081d7235822c94e768105eeb89b7"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-05-gpt-5.6-sol.json",
+      "original_sha256": "d33fcf39a1fcf453bebb649f17cd1e83e42121152e21ffbb621527061eea4e45",
+      "public_sha256": "aff96714225debc93a6175074351df45ac7eb0a526ce991084b4b4e94158dc2a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-06-gpt-5.6-luna.json",
+      "original_sha256": "5d784d610c1a7e8b8190a3f39f403552ec9af548fe7cccd5f7bbca9a781499ab",
+      "public_sha256": "476b7df5c9d4c6406dcceffe2cbff58576e7f09d87439de5f6cbe92388aa9302"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-06-gpt-5.6-sol.json",
+      "original_sha256": "675fb6063c4505d9c9b1bbf2752fbe851ddf9b76b6c582bc297ee26d1e868bc0",
+      "public_sha256": "73027518fb7dea98615c6121f6977b1e0a94cf14e913b7bf4bae5c176581e273"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-07-gpt-5.6-luna.json",
+      "original_sha256": "c6900a619c9a62962bfbef88bac870b57d62d4d8fb0813f5abbedc2e7a7aeb7d",
+      "public_sha256": "21552e9116d5e6d30807772c00198f5ff1752196ee53e4f01662d446669681f5"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-07-gpt-5.6-sol.json",
+      "original_sha256": "a0c50b783dbeceb46393784f6ca2b1991c457f229af19006176f69e4e0cf22cc",
+      "public_sha256": "1ca66ec6d25aef473f71debc3f140f44b34bea9198359c1f45c43419fa9d38d6"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-08-gpt-5.6-luna.json",
+      "original_sha256": "f93c2c5f613ff233ec9ee869790a48bb2e398853f60e9d67b51963de13b0d6d4",
+      "public_sha256": "c3092dabf59ed0a6d99231dbfeb80950979aa9576cce5776e6b57ce59a452fe0"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-08-gpt-5.6-sol.json",
+      "original_sha256": "b690892d53cad8ac43acd35a549bb3eaa22ace10506cc9a5e7937e701104defb",
+      "public_sha256": "521deadb97279b14db48d1dc3e859ab67af5d1cdfa77b3d4dd18518c8ebb9771"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-09-gpt-5.6-luna.json",
+      "original_sha256": "249bf7363ccf0fcd8f76f4e47897c34902de9bd76568e45375c3480d257cd880",
+      "public_sha256": "fb82913ee5088232b41a83c2ce3b9e6b1a0029dc37ec2846bf4464faa7031e29"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-09-gpt-5.6-sol.json",
+      "original_sha256": "60a950ea51818f94654ece9bab2b804525b1bb8dad15fb932790c640cee642c8",
+      "public_sha256": "3754268ff0c5f9e7a8d840b0800c8eab90a9ee2867f69ab32a217840bb6cf00b"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-10-gpt-5.6-luna.json",
+      "original_sha256": "a6cabb253cd62663f9955b43fcd3b23739731310cd365fcf984caeee10cdd9fe",
+      "public_sha256": "1885bdb6aa3fc9a0c23fb1692ed38443368046695b6eaa74100025a21e6ee2bd"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-01-10-gpt-5.6-sol.json",
+      "original_sha256": "377b5c91c9b7037acc0e0a59c0790179846658442828a6748c12c271bc3490db",
+      "public_sha256": "f9b633fa530ba2f1ec09dd9c2ffb8816cb1e62082614db6d1eeece86680cfa70"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-01-gpt-5.6-luna.json",
+      "original_sha256": "de40fe5193e0ed4e61f93c1085538d88c630fbf7806de19207949de8b5efcabc",
+      "public_sha256": "21d75973434321c33e702c7873df97f3bfb44254d45db34c4e40c54a839ef18b"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-01-gpt-5.6-sol.json",
+      "original_sha256": "c18821b0f649229b918e7cdcac516eff600e853360d4d5754e773729984581ae",
+      "public_sha256": "93f9029bd690bda7c57d06d8c776026f4cd70b029696d091dbb1992f26987613"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-02-gpt-5.6-luna.json",
+      "original_sha256": "f05227d2cd1bcce93be50ccfac8ce9f0b96f87e4bf82438a3f762a7c4df9ce17",
+      "public_sha256": "1e98f091b907097e88ce3b1d09312128fcbef6d7b449034457e249db3c5b17cc"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-02-gpt-5.6-sol.json",
+      "original_sha256": "fa47038ea46e756455336953b57f069fcc82d2470875700ac8827bd65a98721f",
+      "public_sha256": "8f724086788ba1894741968d6a9da7d5bbd87e1c84ba693f183f9e3f982a19c4"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-03-gpt-5.6-luna.json",
+      "original_sha256": "9c71e64712d6c54262695f3dfe055fa7cb376e58bb5a7ada4d988f534523e222",
+      "public_sha256": "ee61489e5ab2e95ce15c586513ae37d0932d8ee6377c8e305da32a42c148b4e9"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-03-gpt-5.6-sol.json",
+      "original_sha256": "eb80c2e08a1c508e370be44c8d1a1f209f31519d9f3ba1d39715a500caddf28c",
+      "public_sha256": "05011c8bbd14e41a4ef26c63a91a56294da839b00b642cc40434bfa342920f15"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-04-gpt-5.6-luna.json",
+      "original_sha256": "ea46f119566f937b7824e712f52f13af646f46feb94f2eeb3a0fa5a7268000e9",
+      "public_sha256": "8b8325bf298462d2553e8d48168eac4e35203098e0a388595fe8a2a5f13f9a2e"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-04-gpt-5.6-sol.json",
+      "original_sha256": "fa47db5d0d432773eb6773b340939a99d96b09b156869bf85c258b7f78446762",
+      "public_sha256": "c70c31e02a4e4a7bdc471bf8fe9e9981a46e8cd45f329c132ace35ff70c99c89"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-05-gpt-5.6-luna.json",
+      "original_sha256": "642424b034146b7deb75d4a354d2b74aefdbd3f21aa6882c6fe97ec0d7478835",
+      "public_sha256": "64d0089fceb3b1664b7f5913936554c0418789899cfe70c04aa16870ea465598"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-05-gpt-5.6-sol.json",
+      "original_sha256": "e7ba2ab4d267eaad78293ef3ca875d531a067231aed1d03e452921e9c43356eb",
+      "public_sha256": "80638fe25a16d3299940832c53acadbce63e5344c7b4fb20b596f7ed9b8b4ed7"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-06-gpt-5.6-luna.json",
+      "original_sha256": "f3a426541faa8bbd2bd51c535d97a9efdd38722cba400cee667a0401e08abdcd",
+      "public_sha256": "110b4a220ee2ccf94593a33e9b6cc7edfb637d044c94ea6ca2f782cd7ea177e6"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-06-gpt-5.6-sol.json",
+      "original_sha256": "1f14e14152ec5e655df5bb3f2e30211dfdb2ee934191c78cecc7711676a8fdc0",
+      "public_sha256": "f08d725f6694c1c1538e9e7ccf0ce00ff5c9e56ed6b03e8a5f2e0e23dbb1261a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-07-gpt-5.6-luna.json",
+      "original_sha256": "9f2eac27bfd0a13cbcb3d6005569d89e9b0625c71257dcbae9a577ac8802693f",
+      "public_sha256": "78ca72b409f5c9104748cb6dfe239208d91c47e3662b15d8551233396df51e86"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-07-gpt-5.6-sol.json",
+      "original_sha256": "2ce68eab9e3fc6983f10d13827fa904daf9999d8de0e4bda5c6047fd4916eaca",
+      "public_sha256": "f8107d183e6a80257970b13e042c67fd36034c2014ecd58dbd3b9e9e22a2bec9"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-08-gpt-5.6-luna.json",
+      "original_sha256": "c9442743e650954f5d65c5d570856720f7614061c8035629054478b76dd0caa1",
+      "public_sha256": "84f8776e7ea02e860a08c73140dfc5f2849d4120143b00a1a0eebb59ac08d3de"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-08-gpt-5.6-sol.json",
+      "original_sha256": "139ee6e48338204ecddaa049920fb53a7e20274365bf41f500b3b50e852f9a66",
+      "public_sha256": "86e4b08a743ee9007547d607b9f23f67058e5dda80ee1f32de53585f362f5824"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-09-gpt-5.6-luna.json",
+      "original_sha256": "d3d4cdc1b44680e0a21aa55e4185656e9bec081538ac6eb24e60e6c3a45d3ead",
+      "public_sha256": "f9595cf4e12cdf2aa6fae3c2bdac471cf11a1d049ee16a9d0d47d96fc163851d"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-09-gpt-5.6-sol.json",
+      "original_sha256": "d3261bb016c7ba0fe6697e2e50c8444f3f6f67d070c27a05822167a381c1cccd",
+      "public_sha256": "10bfb86024d80f2643f8c3235a4ffb8f089ceb0c0f17afe2a5462558e022cc63"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-10-gpt-5.6-luna.json",
+      "original_sha256": "4f6263c7413102a84461668cbca1043df86ffff5f82210bb9a53afe7813886e1",
+      "public_sha256": "e0a2124e92ea09fa985d4a2681733b567a7e119b4db5849a326b86859188166f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-02-10-gpt-5.6-sol.json",
+      "original_sha256": "c41092b0cd17728ac80a54cd26a529a9064c9fb39dcc246487d418e4eb80eed8",
+      "public_sha256": "509d63202d83ca7abf71afdc00cb20aae059e37a7fab789d048c2cc6be9cafad"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-01-gpt-5.6-luna.json",
+      "original_sha256": "060177d9beefb01dfafcb517464389e3996e5647f2832ca4f22f95833cc77c25",
+      "public_sha256": "9519e6c0b1d64a61cfbfec001bcdff9bd8d1bbe57ce775da95413e7522995dc7"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-01-gpt-5.6-sol.json",
+      "original_sha256": "5f44cedd8659a7e96e009303740d978843d61a8ee0b768526021cdf6b9bcb403",
+      "public_sha256": "d54c7a7fbd3edb48041877527aefb0709198d247a5aa0f813215f747f8f192f2"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-02-gpt-5.6-luna.json",
+      "original_sha256": "b5b451c3d1bcb12e93193a1feb2e83cc61c2766c0104e119a2b65f3bfb581b03",
+      "public_sha256": "5a468347196f96fd97a23bf5663076d6e78e373f95fcd15afa14ae95100ff432"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-02-gpt-5.6-sol.json",
+      "original_sha256": "5e679c9bbcf5f1dfea873a2a59bc7efab732227a7ee3cfcdf476b48b558f76ad",
+      "public_sha256": "8fec88b6fe1ac7cfd9af67d9b1583c96e405fe8b39d5fabaa8ff74188679930f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-03-gpt-5.6-luna.json",
+      "original_sha256": "7377321a60644eb588e9d259d827a4b58b35a7abff8893f5474e776f67d6dcb5",
+      "public_sha256": "78f15710b9074e43f957bc2555193d8c02725878fc130e4574c4c6bef5c0315a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-03-gpt-5.6-sol.json",
+      "original_sha256": "a765ae6b9a3e5446ce97c05a109b1c53809892e2834d68ba7727c40a0f40facf",
+      "public_sha256": "1dc86da5dca2c3dcff731af2af6bc5b1a0e8b9c52fb27b70ca39e824168e4a7a"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-04-gpt-5.6-luna.json",
+      "original_sha256": "46fb3cbcad90584ac3bb4d671c0adcc80f0c16cd69933e81217bbcb8f4e7b277",
+      "public_sha256": "0c1b2851a3f596c65f6fb575b3f74cd7920b909cf84456943c845df365bf4674"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-04-gpt-5.6-sol.json",
+      "original_sha256": "22cc6f5877e7d4e1c1f4a649b110bcfd86472dc13a824f5b35dc844c329cf954",
+      "public_sha256": "f3a352644600d30ebae06d4097ce798bf11803166989696af7b336e2783b0a32"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-05-gpt-5.6-luna.json",
+      "original_sha256": "7522a16cf7687b4d70457e9d842891179957cedce048779c7c34e9210a378788",
+      "public_sha256": "31523f7deb7a9169ad9ae7bedc331c03be58ebb3ce2c08db23fbc5afdac8e3fb"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-05-gpt-5.6-sol.json",
+      "original_sha256": "475d85ae87ac02bd71e6069ea5a6eb573a670aef493607e89a352f17f450eddd",
+      "public_sha256": "a752042f6914251ceff1bb86d74c1499f3de7460e0ceead52fe0819dffc720e6"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-06-gpt-5.6-luna.json",
+      "original_sha256": "b7d609a0b7e2b975d2d18e37af01db5562f9314afb2071ddb6b6d3f98c9cafa3",
+      "public_sha256": "6a8a064a13e535d2f3342e6e0ce2bec386f5e77e4944598ce59a8c932b10d52f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-06-gpt-5.6-sol.json",
+      "original_sha256": "a9e5486a238277378868a2855b671444c628fcae179f5131d1af6561c1f0209a",
+      "public_sha256": "679cb8167eed5a5fd714a6cd3dd2e53a97f395292461903f94209787e19d6a25"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-07-gpt-5.6-luna.json",
+      "original_sha256": "25a0b656acb1ee0e5e55659d35f2632c6b2021a6c703cb2ab7c6844ff44f6cf8",
+      "public_sha256": "62af3097e744a552c2d29d7b63edda6ae1e0c9f63c1b916d137b3bcc1cc4989b"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-07-gpt-5.6-sol.json",
+      "original_sha256": "b7af06269b27d18cda13ffc0e476c14dd3c0a74f0bd867128c1817497d3e5c45",
+      "public_sha256": "ca76e6e83d196d80a18824ac25ac6d1b3fdc7a7bdb3aef80a19f790076b6ef99"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-08-gpt-5.6-luna.json",
+      "original_sha256": "f767bc5c3342765ca0ccfede4f19a6fa850c6624147b1a7f7b4e9eb57bfa3e98",
+      "public_sha256": "f0ca7646b2ca4a58705341fde9e83320f6b4f6513aee204d627b59f98855a317"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-08-gpt-5.6-sol.json",
+      "original_sha256": "a8155cb7c04701b8c6c8e91486b27f9471beff5b992b448a8b1df3e98a196afc",
+      "public_sha256": "3a362ac7781d9f1f1f91247b1b47e6b5920d2e3b468f8ac91923f089735bdc68"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-09-gpt-5.6-luna.json",
+      "original_sha256": "363987829a3f497d9101e9566e692f80186534c9296f167e7b5af88e61ee76fb",
+      "public_sha256": "f0299b69f0ac5f9da4c82608d8db18c74be074f958d77bb1d495166d6c76b634"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-09-gpt-5.6-sol.json",
+      "original_sha256": "717a7903e46b33b45c00fc77df85c26430f74baa57ed7b7098ae422c1aa05c9f",
+      "public_sha256": "5ffa0178d54e3459e067f83695ac6e1e439bcc107aba6882c6ed38c70c9b6a8f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-10-gpt-5.6-luna.json",
+      "original_sha256": "2862570180093ae77eafc1b8ead110b15c13e32bcf429d71a6b965ff856b89d3",
+      "public_sha256": "307ed69c38bc8ee3e1ee6245d5651d9eebc5fcc8600ecd5883b897edbcb7c70f"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/evaluation-03-10-gpt-5.6-sol.json",
+      "original_sha256": "79760d91ecb2afffce949623f6eae6788ca43c4208e23cb3d583a08f922adbe2",
+      "public_sha256": "3256eeca5bf48be266c870ce6b661c05b8c0300fac139d8d17a0c8bc8f80382d"
+    },
+    {
+      "path": "artifacts/article-series/part-4-coding/routing-comparison-2026-10-04/results.json",
+      "original_sha256": "b1ecf214626b63262dbd600ca86abd20d83eb02fbf27c8cd21cea40211fe2659",
+      "public_sha256": "f551ba7403defb5045b130ef0a2331bf6047325e1ca17066ed150470e1bbca4f"
+    }
+  ],
+  "author_private_originals_retained": true
+}

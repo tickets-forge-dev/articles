@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "authored_cases": 30,
+  "positive_cases": 15,
+  "negative_cases": 15,
+  "repetitions_per_case_per_model": 3,
+  "actual_calls": 27,
+  "correct_decisions_per_model": 90,
+  "raw_predictions_and_usage_checked": true,
+  "same_frozen_semantic_evidence_checked": true,
+  "inherited_cutoff": 0.0,
+  "dataset_digest_checked": true,
+  "independent_cost_and_median_recomputation": true,
+  "article_digest_unchanged": "6021a5620993072eba1295f79dfcad9cb5051d4d36aefd99a3171eab08f7342b",
+  "limitation": "Authored synthetic boundary smoke, not real production data or tuned calibration."
+}

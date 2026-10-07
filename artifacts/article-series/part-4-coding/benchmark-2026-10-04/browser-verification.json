@@ -1,0 +1,20 @@
+{
+  "article": {
+    "width": 375,
+    "overflow": false,
+    "decoded_images": true,
+    "evidence": "http://127.0.0.1:8765/part-4-benchmark.html"
+  },
+  "report": {
+    "url": "http://127.0.0.1:8765/part-4-benchmark.html",
+    "width": 375,
+    "overflow": false,
+    "table_width": 331,
+    "table_container_width": 331
+  },
+  "screenshot_paths": [
+    "cmux-assets/task/part4-benchmark/article-mobile.png",
+    "cmux-assets/task/part4-benchmark/evidence-mobile.png"
+  ],
+  "cmux_unavailable": true
+}

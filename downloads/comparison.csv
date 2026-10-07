@@ -1,0 +1,4 @@
+implementation,unique_held_out_queries,repeats,correct_decisions,scored_decisions,batch_size,median_batch_seconds,observed_api_price_equivalent_usd_per_100_queries,no_input_cache_equivalent_usd_per_100_queries,all_input_cached_equivalent_usd_per_100_queries
+jev-1.13.0 TypeSafe HTTP API,60,3,180,180,10,0.3013805619999914,0.00110453,0.00110453,0.00110453
+gpt-5.6-luna persistent minimal Codex,60,3,180,180,10,4.357356146000001,0.008267933333333333,0.011058333333333333,0.002011233333333333
+gpt-5.6-sol persistent minimal Codex,60,3,180,180,10,5.023704062000007,0.16199066666666667,0.2710466666666666,0.04078466666666667

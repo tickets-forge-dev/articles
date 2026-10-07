@@ -1,0 +1,28 @@
+PART 4 — FINAL PUBLICATION PACKAGE
+Jev vs. an LLM for Intent Classification
+
+COPY
+article-final.docx: publication copy with five inline PNGs and image alt text; can be opened in Google Docs.
+article-medium.md: the same Medium-ready copy with relative image references.
+article-source.md: source copy with the full-precision native comparison table.
+reading-preview.html: self-contained local reading preview, not an exact Medium render.
+
+IMAGES
+Use images/hero.png, then images/step-1.png through images/step-4.png in order.
+The final step image IS the measured comparison table. The Medium-ready copy omits the duplicate native Markdown table. No practical-use card or old forty-file graphic belongs in this version.
+poster/04-intent-classification.png and its Markdown caption/alt text are separate social assets, not a sixth inline image.
+
+EVIDENCE
+experiment-report.docx: full methodology, comparison/cache tables, source citations, limitations, boundary validation and earlier failed experiments.
+evidence.zip: frozen data, every measured prediction, reported token/cache usage, logs, protocols, audits and reproducible scripts. Keep it as the companion raw archive.
+comparison.csv: exact machine-readable primary comparison.
+
+Upload the report DOCX and evidence ZIP to Google Drive. Open the report with Google Docs and link the separate raw ZIP from it. Set reader access intentionally. Once the public viewer URL is available, add the report citation after the article's final takeaway. The article contains no invented URL, localhost citation or placeholder link.
+
+SCOPE
+The table measures account-closure intent recommendation in the tested integrations. No account was closed. LLMs used minimal persistent Codex, not bare API calls. Dollar amounts are published API-price equivalents, not invoices or a lower subscription bill. Sixty unique evaluation queries were each repeated three times; these are not180 independent examples.
+
+VERIFICATION
+Local desktop/mobile reading preview and all five decoded images checked. Recorded evidence, source labels, cohort isolation, prices and quality/performance gates audited without new paid calls. DOCX successfully imported by macOS textutil; its Google Docs rendering has not been verified in the user's Drive.
+
+Before posting, inspect the actual Medium draft, especially image placement, alt text, mobile layout and viewer access to the uploaded evidence. No live Medium publication is claimed.

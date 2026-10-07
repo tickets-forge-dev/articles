@@ -1,0 +1,58 @@
+{
+  "01-prompt-to-answer": [
+    {
+      "situation": "Users wait before anything appears",
+      "action": "Measure time to first token separately from total response time."
+    },
+    {
+      "situation": "The answer starts quickly but streams slowly",
+      "action": "Inspect token-generation speed and output length."
+    },
+    {
+      "situation": "You are choosing an optimization",
+      "action": "Identify the stage causing the delay before changing the serving system."
+    }
+  ],
+  "02-tokens-context-attention": [
+    {
+      "situation": "Similar-sized prompts cost different amounts",
+      "action": "Count tokens with the endpoint’s tokenizer, not characters."
+    },
+    {
+      "situation": "Conversation history keeps growing",
+      "action": "Budget for both input and generated tokens; measure memory and first-token delay."
+    },
+    {
+      "situation": "More context is not helping answers",
+      "action": "Check which evidence the question needs before adding more text."
+    }
+  ],
+  "09-prefix-caching": [
+    {
+      "situation": "Requests repeat long instructions",
+      "action": "Measure exact prefix reuse before evaluating a cache."
+    },
+    {
+      "situation": "Expected cache hits become misses",
+      "action": "Check token order, boundaries, and model or tokenizer versions."
+    },
+    {
+      "situation": "Shared reference material changes",
+      "action": "Define invalidation and freshness rules, and verify tenant authorization before reusing computed state."
+    }
+  ],
+  "08-retrieval-pipeline": [
+    {
+      "situation": "Your assistant finds a rule but misses an exception",
+      "action": "Retrieve the rule and its conditions together."
+    },
+    {
+      "situation": "Policy decisions hide inside a long answer",
+      "action": "Ask focused questions and apply explicit checks in code."
+    },
+    {
+      "situation": "Evidence is missing or the model is uncertain",
+      "action": "Gather more information or route to review before acting."
+    }
+  ]
+}

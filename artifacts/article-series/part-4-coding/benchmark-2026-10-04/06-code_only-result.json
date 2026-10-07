@@ -1,0 +1,44 @@
+{
+  "repeat": 6,
+  "arm": "code_only",
+  "retained_paths": [
+    "packages/web-auth/transport.mjs",
+    "tests/web/login.mjs",
+    "packages/web-auth/codes.mjs",
+    "packages/web-auth/messages.mjs",
+    "apps/web/LoginForm.mjs"
+  ],
+  "essential_files_missed": [],
+  "screening_s": 1.0000000003174137e-05,
+  "coding_s": 6.49802587500001,
+  "end_to_end_s": 6.541147584000001,
+  "coding_returncode": 0,
+  "coding_usage": {
+    "input_tokens": 15011,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62,
+    "reasoning_output_tokens": 0
+  },
+  "unexpected_tool_calls": [],
+  "jev_input_tokens": 0,
+  "screening_errors": 0,
+  "cost_complete": true,
+  "estimated_usd": 0.061284,
+  "patch": {
+    "path": "packages/web-auth/messages.mjs",
+    "old": "  if (code === INVALID_CREDENTIALS) return \"Something went wrong\";",
+    "new": "  if (code === INVALID_CREDENTIALS) return \"Email or password is incorrect\";"
+  },
+  "acceptance": {
+    "passed": true,
+    "returncode": 0,
+    "stdout": "PASS: web invalid credentials; other web errors; mobile unchanged; existing tests\n",
+    "stderr": "",
+    "changed_files": [
+      "packages/web-auth/messages.mjs"
+    ]
+  },
+  "screens": [],
+  "prompt_sha256": "e20326ebe8c5cfbe318e0cbbd2dfd4bbc97d8963202bc1f247f737a8f6785326"
+}

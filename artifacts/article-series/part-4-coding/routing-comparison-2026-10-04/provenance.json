@@ -1,0 +1,12 @@
+{
+  "dataset": "BANKING77",
+  "creators": "PolyAI; Iñigo Casanueva, Tadas Temcinas, Daniela Gerz, Matthew Henderson, Ivan Vulić",
+  "paper": "Efficient Intent Detection with Dual Sentence Encoders (2020)",
+  "paper_url": "https://arxiv.org/abs/2003.04807",
+  "repository_url": "https://github.com/PolyAI-LDN/task-specific-datasets",
+  "dataset_card_url": "https://huggingface.co/datasets/PolyAI/banking77/raw/main/README.md",
+  "license": "Creative Commons Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "modifications": "Queries sampled with fixed seeds; unchanged query text; original 77 fine-grained intent labels mapped to five coarse support queues. This is not a report of full 77-intent accuracy.",
+  "source_integrity": "Full train/test CSV snapshots and SHA-256 values retained in dataset.json; official split sizes verified as 10003 train and 3080 test."
+}

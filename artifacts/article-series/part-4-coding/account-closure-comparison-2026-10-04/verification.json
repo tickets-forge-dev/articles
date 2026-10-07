@@ -1,0 +1,24 @@
+{
+  "source_labels_unchanged": true,
+  "same_queries_all_models": true,
+  "fresh_cohort_excludes_previous_experiment": true,
+  "train_test_exact_text_disjoint": true,
+  "article_unchanged": true,
+  "all_calibration_and_evaluation_predictions_correct": true,
+  "audited_calls": 66,
+  "unique_evaluation_queries": 60,
+  "repeats": 3,
+  "independent_evaluation_queries_not_180": true,
+  "price_accounting_recomputed_from_raw_usage": true,
+  "keyword_control": {
+    "correct": 55,
+    "total": 60,
+    "exploratory": true
+  },
+  "limitations": [
+    "API-price equivalents, not invoices",
+    "Codex framework tokens included; direct bare LLM API not measured",
+    "BANKING77 public training exposure unknown",
+    "No account closure action executed"
+  ]
+}

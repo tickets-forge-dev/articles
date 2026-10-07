@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a106e7-06e8-7511-b734-4fa1005b3be8"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"path\":\"packages/web-auth/messages.mjs\",\"old\":\"if (code === INVALID_CREDENTIALS) return \\\"Something went wrong\\\";\",\"new\":\"if (code === INVALID_CREDENTIALS) return \\\"Email or password is incorrect\\\";\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":59821,"cached_input_tokens":13184,"cache_write_input_tokens":0,"output_tokens":60,"reasoning_output_tokens":0}}

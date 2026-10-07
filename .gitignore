@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+auth.json
+**/auth.json
+.pi/
+.codex/
+.superpowers/
+cmux-assets/
+artifacts/article-series/preview/
+artifacts/local-checks/

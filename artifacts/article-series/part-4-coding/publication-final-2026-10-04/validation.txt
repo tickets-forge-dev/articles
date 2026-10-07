@@ -1,0 +1,24 @@
+Observed verification — final publication rewrite
+
+PASS: python3 scripts/part4-assets.py .../staged
+Native Swift/AppKit rendered the hero, four diagrams and poster from the current article and frozen measurement summary. Text bounds and invalid-step guard passed; 375px previews and 240px thumbnail generated and visually inspected. An initial poster label needed160px but had150px; shortening it to “Classify intent. Humans review.” resolved the failure before installation.
+
+PASS: python3 scripts/check-part4.py
+Primary:66 recorded real calls. Boundary:27 recorded real calls. Raw response labels, reported usage, identical semantic inputs, evaluation repetition counts, observed/cold/fully-cached prices and quality/performance gates independently recomputed. Original public source CSV hashes and rows/labels matched; calibration/evaluation and previous-experiment cohorts isolated. Boundary rubric/cutoff inherited without tuning. No new paid calls.
+
+PASS: python3 scripts/check-draft-layout.py
+All15 article layouts and600–900-word ranges passed. Part4 source:847 words. Compact practical-use text counted once; five ordered image references resolve. Medium-ready copy:808 words, with the comparison delivered in the step4 PNG rather than a duplicate native table.
+
+PASS: uv run --with markdown==3.9 --no-project python scripts/preview-article.py 4
+Five PNGs embedded; approved email CTA; public source links; no remote image dependency. Table support enabled. Initial375px table wrapped the last cost digit; final column widths/nowrap rule keep all numeric cells intact.
+
+PASS: actual dedicated Google Chrome reading surface
+375x812 and1280x960 viewports. Document widths equal viewport widths. All five images decoded at1600x900. Exact numeric table cells observed, with no cell overflow. Opening and comparison screenshots visually inspected. Browser page errors empty. Verification tab released with kill=true. No cmux pane claim; repo-local cmux-assets fallback used because the CLI is unavailable.
+
+PASS: macOS textutil imported both final article DOCX and updated experiment-report DOCX
+Final article DOCX reopens with five inline PNGs, descriptive image alt text, public citations and no duplicate native table. This validates local document readability, not Google Docs or Medium styling.
+
+PASS: frozen raw evidence manifest
+265 JSON/JSONL/CSV/log files remain byte-for-byte unchanged across the publication rewrite. The previous publication ZIP and measurement-time article are preserved separately. That earlier article matches the digest in the frozen experiment protocol. The new article has its own publication manifest; historical unchanged-article audits are not repurposed as verification of the rewrite.
+
+Not performed: new independent subagent review, public Google Docs upload, Google Docs rendering in the user's Drive, actual Medium draft/render or live publication. No invented public evidence URL or placeholder was inserted. The user supplies viewer links after uploading the report and raw ZIP.

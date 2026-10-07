@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-04T12:32:24.660410+00:00",
+  "synthetic": true,
+  "coding_model": "gpt-5.6-sol",
+  "jev_model": "jev-1.13.0",
+  "repeats": 6,
+  "concurrency": 8,
+  "skip_confidence": 0.95,
+  "excerpt_chars": 1600,
+  "rates_usd_per_million": {
+    "input": 4.0,
+    "cached_input": 0.4,
+    "cache_write_input": 5.0,
+    "output": 20.0,
+    "jev_input": 0.042
+  },
+  "rates_urls": [
+    "https://developers.openai.com/api/docs/pricing",
+    "https://docs.typesafe.ai/models"
+  ],
+  "coding_cli_version": "codex-cli 0.146.0",
+  "service_tier_requested": "default",
+  "reasoning_effort": "low",
+  "cost_scope": "Public standard-rate estimates from actual usage; Codex ChatGPT subscription, not invoiced API costs.",
+  "cache_policy": "No attempted cache reset. Record all returned cache usage.",
+  "timing_scope": "Selection + authenticated CLI launch/model output + patch application + Node acceptance.",
+  "arms": {
+    "broad": "Same 40 fixed candidates, no screening.",
+    "code_only": "Static import closure from known entry point and test; no Jev.",
+    "jev": "Screen every same candidate using excerpt; keep unsure/errors/low confidence; pin roots and import dependencies."
+  },
+  "orders": [
+    [
+      "broad",
+      "code_only",
+      "jev"
+    ],
+    [
+      "broad",
+      "jev",
+      "code_only"
+    ],
+    [
+      "code_only",
+      "broad",
+      "jev"
+    ],
+    [
+      "code_only",
+      "jev",
+      "broad"
+    ],
+    [
+      "jev",
+      "broad",
+      "code_only"
+    ],
+    [
+      "jev",
+      "code_only",
+      "broad"
+    ]
+  ],
+  "limits": "One generated task, not six independent tasks; synthetic distractors are clearly scoped; fixed-context patch, not autonomous agent."
+}

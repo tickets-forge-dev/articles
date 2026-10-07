@@ -1,0 +1,6 @@
+{
+  "previous_attempt": "../routing-comparison-2026-10-04",
+  "previous_win_gates": false,
+  "reason_for_new_use_case": "The coarse five-queue mapping treated get_physical_card as shipping although published queries ask for a PIN, and required disambiguation not present in some receiving_money queries. Atomic account-closure intent avoids that remapping problem. No previous held-out query is reused.",
+  "article_changed": false
+}

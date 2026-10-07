@@ -1,0 +1,368 @@
+{
+  "role": "Exploratory naive keyword control, added after primary model comparison; not a claim about all deterministic approaches. No rule tuning on held-out errors.",
+  "rule": "Word account AND one of close/closed/closing/delete/deleted/deleting/terminate/terminating/deactivate/deactivating/remove/cancel/discontinue/invalidate.",
+  "correct": 55,
+  "total": 60,
+  "decisions": [
+    {
+      "case_id": "test-475",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1884",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1545",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1706",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1912",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-710",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-711",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1701",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1882",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-394",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1907",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1650",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1127",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-692",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1826",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-66",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-470",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1901",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1917",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1897",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1494",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-2346",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1894",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-2929",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1910",
+      "prediction": "not_closure",
+      "expected": "closure_request",
+      "correct": false
+    },
+    {
+      "case_id": "test-1886",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-67",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1914",
+      "prediction": "not_closure",
+      "expected": "closure_request",
+      "correct": false
+    },
+    {
+      "case_id": "test-1899",
+      "prediction": "not_closure",
+      "expected": "closure_request",
+      "correct": false
+    },
+    {
+      "case_id": "test-1885",
+      "prediction": "not_closure",
+      "expected": "closure_request",
+      "correct": false
+    },
+    {
+      "case_id": "test-1916",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1892",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-691",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1549",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-61",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1919",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1896",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1893",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1154",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1908",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-3026",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1915",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-850",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1881",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1959",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1903",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-2749",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1709",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1906",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1890",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-472",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-2222",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-2113",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1904",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1902",
+      "prediction": "not_closure",
+      "expected": "closure_request",
+      "correct": false
+    },
+    {
+      "case_id": "test-1898",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1887",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-706",
+      "prediction": "not_closure",
+      "expected": "not_closure",
+      "correct": true
+    },
+    {
+      "case_id": "test-1883",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    },
+    {
+      "case_id": "test-1900",
+      "prediction": "closure_request",
+      "expected": "closure_request",
+      "correct": true
+    }
+  ]
+}

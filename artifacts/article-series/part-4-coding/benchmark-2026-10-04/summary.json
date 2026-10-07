@@ -1,0 +1,88 @@
+{
+  "arms": {
+    "broad": {
+      "runs": 6,
+      "successful_fixes": 6,
+      "retained_files": [
+        40
+      ],
+      "coding_input_tokens": [
+        59821
+      ],
+      "median_end_to_end_s": 7.47643347950001,
+      "range_end_to_end_s": [
+        6.166958791999999,
+        8.097790541999998
+      ],
+      "median_screening_s": 1.164599999725624e-05,
+      "median_estimated_usd_with_observed_cache": 0.21675280000000002,
+      "cached_input_tokens_by_run": [
+        0,
+        13184,
+        0,
+        59648,
+        59648,
+        0
+      ],
+      "median_jev_input_tokens": 0.0,
+      "median_jev_estimated_usd": 0.0
+    },
+    "code_only": {
+      "runs": 6,
+      "successful_fixes": 6,
+      "retained_files": [
+        5
+      ],
+      "coding_input_tokens": [
+        15011
+      ],
+      "median_end_to_end_s": 6.556172917000001,
+      "range_end_to_end_s": [
+        5.832136665999997,
+        11.004768291000005
+      ],
+      "median_screening_s": 9.979000001436589e-06,
+      "median_estimated_usd_with_observed_cache": 0.061284,
+      "cached_input_tokens_by_run": [
+        0,
+        0,
+        0,
+        13184,
+        0,
+        0
+      ],
+      "median_jev_input_tokens": 0.0,
+      "median_jev_estimated_usd": 0.0
+    },
+    "jev": {
+      "runs": 6,
+      "successful_fixes": 6,
+      "retained_files": [
+        40
+      ],
+      "coding_input_tokens": [
+        59821
+      ],
+      "median_end_to_end_s": 8.694968188000004,
+      "range_end_to_end_s": [
+        7.714854249999995,
+        9.240202875000001
+      ],
+      "median_screening_s": 1.6817136249999933,
+      "median_estimated_usd_with_observed_cache": 0.13467375799999998,
+      "cached_input_tokens_by_run": [
+        0,
+        59648,
+        59648,
+        0,
+        59648,
+        0
+      ],
+      "median_jev_input_tokens": 36099.0,
+      "median_jev_estimated_usd": 0.001516158
+    }
+  },
+  "jev_faster_pairs": 1,
+  "jev_median_latency_change_percent": 16.298342141893627,
+  "cost_causal_limit": "Cache use differs between arms; observed-cache USD medians do not establish screening savings."
+}
