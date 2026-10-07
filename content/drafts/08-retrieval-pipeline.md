@@ -90,7 +90,7 @@ Earlier file-screening and broad-routing experiments did **not** establish a Jev
 
 **Choose the smallest sufficient mechanism, then measure it.** This experiment supports Jev for a bounded semantic recommendation—not replacing an LLM’s reasoning or claiming an entire application became 14× faster. The companion report preserves the protocol, datasets, every measured prediction, usage and earlier negative results.
 
-[Experiment report and reproducible evidence](../../artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evidence.md).
+[Experiment report and reproducible evidence](https://github.com/tickets-forge-dev/articles/blob/f598a2b22187cf749a5558e090a913e6335ebf39/artifacts/article-series/part-4-coding/account-closure-comparison-2026-10-04/evidence.md), pinned to the published evidence commit.
 
 If your team needs help choosing and implementing the right model for an AI workflow, [email me](mailto:bar.idan@gmail.com) about a monthly programming-contractor retainer.
 

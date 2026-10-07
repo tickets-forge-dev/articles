@@ -15,6 +15,9 @@ This repository contains only publication Parts 1–4 and their images, posters,
 - [Recorded calls, datasets, privacy disclosure and reproduction](artifacts/article-series/part-4-coding/README.md)
 - [Download the privacy-safe evidence archive](downloads/part-4-evidence.zip)
 - [Machine-readable comparison](downloads/comparison.csv)
+- [Part 4 publication DOCX](downloads/part-4-article.docx)
+- [Complete Part 4 publication package](downloads/part-4-publication.zip)
+- [Companion experiment report DOCX](downloads/experiment-report.docx)
 
 The account-closure experiment used sixty unique held-out BANKING77 queries repeated three times per classifier. All three implementations returned 180/180 correct evaluation decisions. Median ten-query batches: Jev 0.3014 s; GPT-5.6-Luna 4.3574 s; GPT-5.6-Sol 5.0237 s. This compares the tested Jev HTTP and persistent minimal Codex integrations, not bare OpenAI API inference. Costs are published API-price equivalents from reported usage/cache counts, not invoices or subscription savings. Synthetic boundary cases and earlier unsuccessful experiments remain separate. No bank account action was executed.
 
